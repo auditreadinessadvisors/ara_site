@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendar una Consulta — Audit Readiness Advisors</title>
+    <meta name="description"
+        content="Agenda una consulta confidencial con nuestro equipo de asesoría en preparación para auditoría. Discute tu cronograma y necesidades.">
+    <meta name="keywords"
+        content="consulta asesoría auditoría, agendar reunión, consulta preparación auditoría Colombia">
+    <link rel="canonical" href="https://auditreadinessadvisors.com/es/contacto.html">
+    <link rel="alternate" hreflang="en" href="https://auditreadinessadvisors.com/contact.html">
+    <link rel="alternate" hreflang="es" href="https://auditreadinessadvisors.com/es/contacto.html">
+    <meta property="og:title" content="Agendar una Consulta — Audit Readiness Advisors">
+    <meta property="og:description"
+        content="Agenda una consulta confidencial para discutir tus necesidades de preparación para auditoría.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="es_CO">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="nav__inner">
+            <a href="index.html" class="nav__logo">
+                <div class="nav__logo-icon">AR</div>
+                <div class="nav__logo-text">Audit Readiness <span>Advisors</span></div>
+            </a>
+            <div class="nav__links" id="nav-links">
+                <a href="index.html" class="nav__link">Inicio</a>
+                <a href="servicios/preparacion-auditoria.html" class="nav__link">Servicios</a>
+                <a href="nosotros.html" class="nav__link">Nosotros</a>
+                <a href="preguntas-frecuentes.html" class="nav__link">FAQ</a>
+                <a href="contacto.html" class="nav__link nav__link--active">Contacto</a>
+            </div>
+            <div class="nav__actions">
+                <button class="nav__lang" onclick="switchLanguage('en')" aria-label="Cambiar a inglés">EN</button>
+                <a href="contacto.html" class="nav__cta">Agendar Consulta</a>
+            </div>
+            <button class="nav__toggle" id="nav-toggle"
+                aria-label="Abrir menú"><span></span><span></span><span></span></button>
+        </div>
+    </nav>
+
+    <section class="page-hero">
+        <div class="container">
+            <span class="section-label">Contáctanos</span>
+            <h1>Agenda una Consulta Confidencial</h1>
+            <p>Cuéntanos sobre tu cronograma de auditoría y necesidades de preparación. Responderemos dentro de un día
+                hábil para agendar una llamada.</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="service-detail">
+                <div class="reveal">
+                    <h2>Envíanos un Mensaje</h2>
+                    <div class="gold-line"></div>
+                    <p style="margin-bottom: var(--space-2xl);">Completa el formulario a continuación y un miembro
+                        senior de nuestro equipo dará seguimiento para discutir tus necesidades. Todas las consultas se
+                        tratan como confidenciales.</p>
+
+                    <form class="contact-form" id="contact-form" action="#" method="POST">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="first-name">Nombre *</label>
+                                <input type="text" id="first-name" name="first_name" required placeholder="María">
+                            </div>
+                            <div class="form-group">
+                                <label for="last-name">Apellido *</label>
+                                <input type="text" id="last-name" name="last_name" required placeholder="González">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Correo Corporativo *</label>
+                                <input type="email" id="email" name="email" required placeholder="maria@empresa.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="company">Nombre de la Empresa *</label>
+                                <input type="text" id="company" name="company" required placeholder="Empresa S.A.S.">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="role">Tu Cargo</label>
+                                <select id="role" name="role">
+                                    <option value="">Selecciona tu cargo</option>
+                                    <option value="cfo">CFO / VP Finanzas</option>
+                                    <option value="controller">Controller</option>
+                                    <option value="director">Director de Contabilidad</option>
+                                    <option value="ceo">CEO / Fundador</option>
+                                    <option value="coo">COO</option>
+                                    <option value="pe">Socio PE / VC</option>
+                                    <option value="other">Otro</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="service">Servicio de Interés</label>
+                                <select id="service" name="service">
+                                    <option value="">Selecciona un servicio</option>
+                                    <option value="audit-readiness">Preparación para Auditoría / Auditoría Simulada
+                                    </option>
+                                    <option value="diagnostics">Diagnóstico de Estados Financieros</option>
+                                    <option value="gaap-ifrs">Asesoría GAAP / IFRS / NIIF</option>
+                                    <option value="internal-controls">Asesoría en Controles Internos</option>
+                                    <option value="multiple">Múltiples Servicios</option>
+                                    <option value="not-sure">Aún No Estoy Seguro</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Cuéntanos sobre tus Necesidades</label>
+                            <textarea id="message" name="message"
+                                placeholder="Describe tu cronograma de auditoría, principales preocupaciones y cómo podemos ayudar. Por ejemplo: 'Tenemos una auditoría de cierre de año en Q1 2027 y necesitamos una auditoría simulada para identificar problemas potenciales.'"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn--primary" id="submit-btn" style="align-self: flex-start;">
+                            Enviar Mensaje <span class="btn__arrow">→</span>
+                        </button>
+                        <p style="font-size: 0.8rem; color: var(--text-muted); margin-top: var(--space-sm);">
+                            Al enviar este formulario, aceptas ser contactado por Audit Readiness Advisors respecto a tu
+                            consulta. Nunca compartiremos tu información con terceros.
+                        </p>
+                    </form>
+                </div>
+
+                <div class="reveal reveal--delay-2">
+                    <div class="card card--navy" style="margin-bottom: var(--space-xl);">
+                        <h3 class="card__title">📅 ¿Prefieres Agendar Directamente?</h3>
+                        <p class="card__text">Programa una llamada de descubrimiento de 30 minutos con un miembro senior
+                            de nuestro equipo en el horario que te convenga.</p>
+                        <a href="#" class="card__link" style="color: var(--gold);">Agendar en Calendly →</a>
+                    </div>
+                    <div class="card card--navy" style="margin-bottom: var(--space-xl);">
+                        <h3 class="card__title">📧 Escríbenos</h3>
+                        <p class="card__text">¿Prefieres correo electrónico? Contáctanos directamente:</p>
+                        <a href="mailto:info@auditreadinessadvisors.com" class="card__link"
+                            style="color: var(--gold);">info@auditreadinessadvisors.com</a>
+                    </div>
+                    <div class="card card--navy">
+                        <h3 class="card__title">🌎 Atendemos</h3>
+                        <p class="card__text">Estados Unidos · Colombia · Argentina · Latinoamérica</p>
+                        <p class="card__text" style="margin-bottom: 0;">Engagements virtuales disponibles a nivel
+                            mundial.</p>
+                    </div>
+                    <div
+                        style="margin-top: var(--space-2xl); padding: var(--space-xl); background: var(--off-white); border-radius: var(--radius-lg);">
+                        <h4 style="font-size: 1rem; margin-bottom: var(--space-md);">Qué Esperar</h4>
+                        <ul class="deliverables">
+                            <li>Respuesta dentro de 1 día hábil</li>
+                            <li>Llamada confidencial de descubrimiento de 30 minutos</li>
+                            <li>Sin obligación, sin presión de ventas</li>
+                            <li>Pasos claros y propuesta de engagement</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__brand"><a href="index.html" class="nav__logo"
+                        style="margin-bottom: var(--space-md);">
+                        <div class="nav__logo-icon">AR</div>
+                        <div class="nav__logo-text">Audit Readiness <span>Advisors</span></div>
+                    </a>
+                    <p>Asesoría de preparación para auditoría con experiencia Big Four.</p>
+                </div>
+                <div>
+                    <h4 class="footer__heading">Servicios</h4>
+                    <ul class="footer__links">
+                        <li><a href="servicios/preparacion-auditoria.html">Preparación para Auditoría</a></li>
+                        <li><a href="servicios/diagnostico-financiero.html">Diagnóstico Financiero</a></li>
+                        <li><a href="servicios/asesoria-gaap-ifrs-niif.html">Asesoría GAAP/IFRS/NIIF</a></li>
+                        <li><a href="servicios/controles-internos.html">Controles Internos</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="footer__heading">Empresa</h4>
+                    <ul class="footer__links">
+                        <li><a href="nosotros.html">Nosotros</a></li>
+                        <li><a href="preguntas-frecuentes.html">FAQ</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="footer__heading">Idiomas</h4>
+                    <ul class="footer__links">
+                        <li><a href="../index.html">English</a></li>
+                        <li><a href="index.html">Español</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2026 Audit Readiness Advisors. Todos los derechos reservados.</p>
+                <div class="footer__legal"><a href="#">Política de Privacidad</a><a href="#">Términos de Servicio</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>

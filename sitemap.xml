@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- English Pages -->
+  <url>
+    <loc>https://auditreadinessadvisors.com/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://auditreadinessadvisors.com/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://auditreadinessadvisors.com/es/" />
+    <priority>1.0</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://auditreadinessadvisors.com/services/audit-readiness.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://auditreadinessadvisors.com/services/audit-readiness.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://auditreadinessadvisors.com/es/servicios/preparacion-auditoria.html" />
+    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://auditreadinessadvisors.com/services/financial-diagnostics.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://auditreadinessadvisors.com/services/financial-diagnostics.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://auditreadinessadvisors.com/es/servicios/diagnostico-financiero.html" />
+    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://auditreadinessadvisors.com/services/gaap-ifrs-advisory.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://auditreadinessadvisors.com/services/gaap-ifrs-advisory.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://auditreadinessadvisors.com/es/servicios/asesoria-gaap-ifrs-niif.html" />
+    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://auditreadinessadvisors.com/services/internal-controls.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://auditreadinessadvisors.com/services/internal-controls.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://auditreadinessadvisors.com/es/servicios/controles-internos.html" />
+    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://auditreadinessadvisors.com/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://auditreadinessadvisors.com/about.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://auditreadinessadvisors.com/es/nosotros.html" />
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://auditreadinessadvisors.com/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://auditreadinessadvisors.com/contact.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://auditreadinessadvisors.com/es/contacto.html" />
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://auditreadinessadvisors.com/faq.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://auditreadinessadvisors.com/faq.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://auditreadinessadvisors.com/es/preguntas-frecuentes.html" />
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <!-- Spanish Pages -->
+  <url>
+    <loc>https://auditreadinessadvisors.com/es/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://auditreadinessadvisors.com/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://auditreadinessadvisors.com/es/" />
+    <priority>1.0</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://auditreadinessadvisors.com/es/servicios/preparacion-auditoria.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://auditreadinessadvisors.com/services/audit-readiness.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://auditreadinessadvisors.com/es/servicios/preparacion-auditoria.html" />
+    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://auditreadinessadvisors.com/es/servicios/diagnostico-financiero.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://auditreadinessadvisors.com/services/financial-diagnostics.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://auditreadinessadvisors.com/es/servicios/diagnostico-financiero.html" />
+    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://auditreadinessadvisors.com/es/servicios/asesoria-gaap-ifrs-niif.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://auditreadinessadvisors.com/services/gaap-ifrs-advisory.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://auditreadinessadvisors.com/es/servicios/asesoria-gaap-ifrs-niif.html" />
+    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://auditreadinessadvisors.com/es/servicios/controles-internos.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://auditreadinessadvisors.com/services/internal-controls.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://auditreadinessadvisors.com/es/servicios/controles-internos.html" />
+    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://auditreadinessadvisors.com/es/nosotros.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://auditreadinessadvisors.com/about.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://auditreadinessadvisors.com/es/nosotros.html" />
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://auditreadinessadvisors.com/es/contacto.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://auditreadinessadvisors.com/contact.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://auditreadinessadvisors.com/es/contacto.html" />
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://auditreadinessadvisors.com/es/preguntas-frecuentes.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://auditreadinessadvisors.com/faq.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://auditreadinessadvisors.com/es/preguntas-frecuentes.html" />
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+</urlset>
