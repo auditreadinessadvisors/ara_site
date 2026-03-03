@@ -3,7 +3,11 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Frequently Asked Questions — Audit Readiness, Mock Audits, GAAP & IFRS | Audit Readiness Advisors</title>
     <meta name="description"
         content="Answers to common questions about audit readiness reviews, mock audits, GAAP/IFRS/NIIF advisory, internal controls, and our engagement process.">
@@ -142,12 +146,23 @@
   }
   </script>
 
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
-  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap"></noscript>
-  <link rel="stylesheet" href="css/style.css">
+      <style>
+/* Critical CSS for Ara Site */
+:root { --navy: #0B1D3A; --navy-light: #132B52; --navy-dark: #070F1E; --gold: #C9A84C; --gold-light: #D4BA6A; --gold-dark: #A68B3C; --white: #FFFFFF; --off-white: #F7F8FA; --gray-100: #EEF0F4; --gray-300: #B0B7C5; --text-primary: #1A1F2E; --text-secondary: #5A6374; --font-heading: 'Playfair Display', Georgia, serif; --font-body: 'Inter', sans-serif; --space-md: 1rem; --space-lg: 1.5rem; --space-xl: 2rem; --space-2xl: 3rem; --space-3xl: 4rem; --space-4xl: 6rem; --space-5xl: 8rem; --transition-base: 250ms ease; --radius-sm: 4px; --max-width: 1200px; }
+*,*::before,*::after { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; font-size: 16px; }
+body { font-family: var(--font-body); color: var(--text-primary); background-color: var(--white); line-height: 1.7; overflow-x: hidden; }
+h1,h2,h3 { font-family: var(--font-heading); font-weight: 700; color: var(--navy); }
+.container { width: 100%; max-width: var(--max-width); margin: 0 auto; padding: 0 var(--space-xl); }
+.nav { position: fixed; top: 0; left: 0; right: 0; z-index: 1000; background: rgba(11, 29, 58, 0.95); backdrop-filter: blur(12px); border-bottom: 1px solid rgba(201, 168, 76, 0.15); }
+.nav__inner { display: flex; align-items: center; justify-content: space-between; height: 72px; max-width: var(--max-width); margin: 0 auto; padding: 0 var(--space-xl); }
+.nav__logo-img { height: 36px; width: auto; display: block; }
+.hero { position: relative; min-height: 100vh; display: flex; align-items: center; background: linear-gradient(160deg, var(--navy-dark) 0%, var(--navy) 50%, var(--navy-light) 100%); padding-top: 72px; color: white; }
+.hero h1 { color: var(--white); font-size: clamp(2.5rem, 5.5vw, 3.8rem); margin-bottom: var(--space-xl); }
+.btn { display: inline-flex; align-items: center; padding: 12px 28px; font-weight: 600; border-radius: var(--radius-sm); transition: all 0.25s; }
+.btn--primary { background: var(--gold); color: var(--navy); }
+</style>
+   
   <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
 </head>
 
@@ -175,6 +190,7 @@
     </nav>
 
   <main id="main-content">
+
 <section class="page-hero">
         <div class="container">
             <span class="section-label">FAQ</span>
