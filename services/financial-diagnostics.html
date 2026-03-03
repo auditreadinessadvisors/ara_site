@@ -3,11 +3,13 @@
 
 <head>
     <meta charset="UTF-8">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" as="style"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Financial Statement Diagnostics — Audit Readiness Advisors</title>
     <meta name="description"
         content="Expert financial statement diagnostics to identify misstatements, classification errors, and disclosure deficiencies before your auditor does. GAAP, IFRS, NIIF compliant.">
@@ -22,9 +24,9 @@
     <meta property="og:description"
         content="Deep-dive analysis to identify financial statement issues before your auditor does.">
     <meta property="og:type" content="website">
-  <meta property="og:image" content="https://auditreadinessadvisors.com/images/og-image.png">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
+    <meta property="og:image" content="https://auditreadinessadvisors.com/images/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
 
     <script type="application/ld+json">
   {
@@ -37,26 +39,134 @@
   }
   </script>
 
-      <style>
-/* Critical CSS for Ara Site */
-:root { --navy: #0B1D3A; --navy-light: #132B52; --navy-dark: #070F1E; --gold: #C9A84C; --gold-light: #D4BA6A; --gold-dark: #A68B3C; --white: #FFFFFF; --off-white: #F7F8FA; --gray-100: #EEF0F4; --gray-300: #B0B7C5; --text-primary: #1A1F2E; --text-secondary: #5A6374; --font-heading: 'Playfair Display', Georgia, serif; --font-body: 'Inter', sans-serif; --space-md: 1rem; --space-lg: 1.5rem; --space-xl: 2rem; --space-2xl: 3rem; --space-3xl: 4rem; --space-4xl: 6rem; --space-5xl: 8rem; --transition-base: 250ms ease; --radius-sm: 4px; --max-width: 1200px; }
-*,*::before,*::after { margin: 0; padding: 0; box-sizing: border-box; }
-html { scroll-behavior: smooth; font-size: 16px; }
-body { font-family: var(--font-body); color: var(--text-primary); background-color: var(--white); line-height: 1.7; overflow-x: hidden; }
-h1,h2,h3 { font-family: var(--font-heading); font-weight: 700; color: var(--navy); }
-.container { width: 100%; max-width: var(--max-width); margin: 0 auto; padding: 0 var(--space-xl); }
-.nav { position: fixed; top: 0; left: 0; right: 0; z-index: 1000; background: rgba(11, 29, 58, 0.95); backdrop-filter: blur(12px); border-bottom: 1px solid rgba(201, 168, 76, 0.15); }
-.nav__inner { display: flex; align-items: center; justify-content: space-between; height: 72px; max-width: var(--max-width); margin: 0 auto; padding: 0 var(--space-xl); }
-.nav__logo-img { height: 36px; width: auto; display: block; }
-.hero { position: relative; min-height: 100vh; display: flex; align-items: center; background: linear-gradient(160deg, var(--navy-dark) 0%, var(--navy) 50%, var(--navy-light) 100%); padding-top: 72px; color: white; }
-.hero h1 { color: var(--white); font-size: clamp(2.5rem, 5.5vw, 3.8rem); margin-bottom: var(--space-xl); }
-.btn { display: inline-flex; align-items: center; padding: 12px 28px; font-weight: 600; border-radius: var(--radius-sm); transition: all 0.25s; }
-.btn--primary { background: var(--gold); color: var(--navy); }
-</style>
-  
-  <link rel="stylesheet" href="../css/style.css" media="print" onload="this.media='all'">
-  <noscript><link rel="stylesheet" href="../css/style.css"></noscript>
-  <link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
+    <style>
+        /* Critical CSS for Ara Site */
+        :root {
+            --navy: #0B1D3A;
+            --navy-light: #132B52;
+            --navy-dark: #070F1E;
+            --gold: #C9A84C;
+            --gold-light: #D4BA6A;
+            --gold-dark: #A68B3C;
+            --white: #FFFFFF;
+            --off-white: #F7F8FA;
+            --gray-100: #EEF0F4;
+            --gray-300: #B0B7C5;
+            --text-primary: #1A1F2E;
+            --text-secondary: #5A6374;
+            --font-heading: 'Playfair Display', Georgia, serif;
+            --font-body: 'Inter', sans-serif;
+            --space-md: 1rem;
+            --space-lg: 1.5rem;
+            --space-xl: 2rem;
+            --space-2xl: 3rem;
+            --space-3xl: 4rem;
+            --space-4xl: 6rem;
+            --space-5xl: 8rem;
+            --transition-base: 250ms ease;
+            --radius-sm: 4px;
+            --max-width: 1200px;
+        }
+
+        *,
+        *::before,
+        *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            font-size: 16px;
+        }
+
+        body {
+            font-family: var(--font-body);
+            color: var(--text-primary);
+            background-color: var(--white);
+            line-height: 1.7;
+            overflow-x: hidden;
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-family: var(--font-heading);
+            font-weight: 700;
+            color: var(--navy);
+        }
+
+        .container {
+            width: 100%;
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 var(--space-xl);
+        }
+
+        .nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            background: rgba(11, 29, 58, 0.95);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(201, 168, 76, 0.15);
+        }
+
+        .nav__inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 72px;
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 var(--space-xl);
+        }
+
+        .nav__logo-img {
+            height: 36px;
+            width: auto;
+            display: block;
+        }
+
+        .hero {
+            position: relative;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            background: linear-gradient(160deg, var(--navy-dark) 0%, var(--navy) 50%, var(--navy-light) 100%);
+            padding-top: 72px;
+            color: white;
+        }
+
+        .hero h1 {
+            color: var(--white);
+            font-size: clamp(2.5rem, 5.5vw, 3.8rem);
+            margin-bottom: var(--space-xl);
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            padding: 12px 28px;
+            font-weight: 600;
+            border-radius: var(--radius-sm);
+            transition: all 0.25s;
+        }
+
+        .btn--primary {
+            background: var(--gold);
+            color: var(--navy);
+        }
+    </style>
+
+    <link rel="stylesheet" href="../css/style.css" media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet" href="../css/style.css">
+    </noscript>
+    <link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
 </head>
 
 <body>
@@ -64,7 +174,8 @@ h1,h2,h3 { font-family: var(--font-heading); font-weight: 700; color: var(--navy
     <nav class="nav" id="main-nav">
         <div class="nav__inner">
             <a href="../index.html" class="nav__logo">
-                <img src="../images/logo.svg" alt="Audit Readiness Advisors" class="nav__logo-img" width="120" height="36" >
+                <img src="../images/logo.svg" alt="Audit Readiness Advisors" class="nav__logo-img" width="120"
+                    height="36">
             </a>
             <div class="nav__links" id="nav-links">
                 <a href="../index.html" class="nav__link">Home</a>
@@ -75,128 +186,136 @@ h1,h2,h3 { font-family: var(--font-heading); font-weight: 700; color: var(--navy
             </div>
             <div class="nav__actions">
                 <button class="nav__lang" onclick="switchLanguage('es')" aria-label="Switch to Spanish">ES</button>
-                <a href="../contact.html" class="nav__cta">Book a Consultation</a>
+                <a href="../assessment.html" class="nav__cta">Free Assessment</a>
             </div>
             <button class="nav__toggle" id="nav-toggle"
                 aria-label="Toggle navigation"><span></span><span></span><span></span></button>
         </div>
     </nav>
 
-  <main id="main-content">
+    <main id="main-content">
 
-<section class="page-hero">
-        <div class="container">
-            <span class="section-label">Diagnostics &amp; Analysis</span>
-            <h1>Financial Statement Diagnostics</h1>
-            <p>A rigorous, line-by-line analysis of your financial statements to surface issues before your auditor does
-                — protecting your credibility and accelerating the audit process.</p>
-        </div>
-    </section>
+        <section class="page-hero">
+            <div class="container">
+                <span class="section-label">Diagnostics &amp; Analysis</span>
+                <h1>Financial Statement Diagnostics</h1>
+                <p>A rigorous, line-by-line analysis of your financial statements to surface issues before your auditor
+                    does
+                    — protecting your credibility and accelerating the audit process.</p>
+            </div>
+        </section>
 
-    <section class="section">
-        <div class="container">
-            <div class="service-detail">
-                <div>
-                    <div class="reveal">
-                        <h2>The Problem</h2>
-                        <div class="gold-line"></div>
-                        <p class="lead">
-                            Financial statements are the foundation of every audit. When they contain misstatements,
-                            inconsistencies, or disclosure gaps, the consequences ripple through the entire engagement.
-                        </p>
-                        <p>
-                            Auditors finding errors in your financial statements leads to audit adjustments, Management
-                            Letter comments, extended timelines, and — in the worst cases — restatements. These outcomes
-                            damage credibility with boards, investors, and lenders.
-                        </p>
+        <section class="section">
+            <div class="container">
+                <div class="service-detail">
+                    <div>
+                        <div class="reveal">
+                            <h2>The Problem</h2>
+                            <div class="gold-line"></div>
+                            <p class="lead">
+                                Financial statements are the foundation of every audit. When they contain misstatements,
+                                inconsistencies, or disclosure gaps, the consequences ripple through the entire
+                                engagement.
+                            </p>
+                            <p>
+                                Auditors finding errors in your financial statements leads to audit adjustments,
+                                Management
+                                Letter comments, extended timelines, and — in the worst cases — restatements. These
+                                outcomes
+                                damage credibility with boards, investors, and lenders.
+                            </p>
+                        </div>
+
+                        <div class="reveal" style="margin-top: var(--space-3xl);">
+                            <h2>Our Approach</h2>
+                            <div class="gold-line"></div>
+                            <p>
+                                We apply Big Four-caliber analytical procedures to your financial statements, examining
+                                every material balance, transaction class, and disclosure against the applicable
+                                accounting
+                                framework. Our team identifies:
+                            </p>
+                            <ul class="deliverables">
+                                <li>Potential material misstatements and errors in account balances</li>
+                                <li>Inconsistencies between financial statement line items and supporting schedules</li>
+                                <li>Classification errors impacting the quality of earnings and financial position</li>
+                                <li>Disclosure deficiencies under US GAAP, IFRS, or NIIF requirements</li>
+                                <li>Accounting policy elections that may be inconsistent or suboptimal</li>
+                                <li>Presentation issues that could trigger auditor inquiries</li>
+                            </ul>
+                        </div>
+
+                        <div class="reveal" style="margin-top: var(--space-3xl);">
+                            <h2>What You Get</h2>
+                            <div class="gold-line"></div>
+                            <ul class="deliverables">
+                                <li>Detailed financial statement markup with identified issues annotated</li>
+                                <li>Quantified impact analysis for each identified misstatement</li>
+                                <li>Framework-specific guidance on required corrections</li>
+                                <li>Disclosure checklist tailored to your framework and industry</li>
+                                <li>Analytical review highlighting unusual balances and trends</li>
+                                <li>Executive summary for CFO and board presentation</li>
+                                <li>Corrective journal entries and restatement support where needed</li>
+                            </ul>
+                        </div>
+
+                        <div class="reveal" style="margin-top: var(--space-3xl);">
+                            <h2>Who This Is For</h2>
+                            <div class="gold-line"></div>
+                            <ul class="deliverables">
+                                <li>Companies preparing draft financial statements before audit fieldwork</li>
+                                <li>CFOs who want an independent quality check on their reporting</li>
+                                <li>Organizations adopting new accounting standards and need to validate compliance</li>
+                                <li>Companies with complex transactions requiring careful accounting treatment</li>
+                                <li>Multinational entities consolidating financial statements across jurisdictions</li>
+                            </ul>
+                        </div>
                     </div>
 
-                    <div class="reveal" style="margin-top: var(--space-3xl);">
-                        <h2>Our Approach</h2>
-                        <div class="gold-line"></div>
-                        <p>
-                            We apply Big Four-caliber analytical procedures to your financial statements, examining
-                            every material balance, transaction class, and disclosure against the applicable accounting
-                            framework. Our team identifies:
-                        </p>
-                        <ul class="deliverables">
-                            <li>Potential material misstatements and errors in account balances</li>
-                            <li>Inconsistencies between financial statement line items and supporting schedules</li>
-                            <li>Classification errors impacting the quality of earnings and financial position</li>
-                            <li>Disclosure deficiencies under US GAAP, IFRS, or NIIF requirements</li>
-                            <li>Accounting policy elections that may be inconsistent or suboptimal</li>
-                            <li>Presentation issues that could trigger auditor inquiries</li>
+                    <div class="service-detail__sidebar reveal">
+                        <h3>All Services</h3>
+                        <ul>
+                            <li><a href="audit-readiness.html">Audit Readiness Reviews & Mock Audits</a></li>
+                            <li><a href="financial-diagnostics.html" class="active">Financial Statement Diagnostics</a>
+                            </li>
+                            <li><a href="gaap-ifrs-advisory.html">GAAP, IFRS & NIIF Advisory</a></li>
+                            <li><a href="internal-controls.html">Internal Controls & Financial Reporting</a></li>
                         </ul>
-                    </div>
-
-                    <div class="reveal" style="margin-top: var(--space-3xl);">
-                        <h2>What You Get</h2>
-                        <div class="gold-line"></div>
-                        <ul class="deliverables">
-                            <li>Detailed financial statement markup with identified issues annotated</li>
-                            <li>Quantified impact analysis for each identified misstatement</li>
-                            <li>Framework-specific guidance on required corrections</li>
-                            <li>Disclosure checklist tailored to your framework and industry</li>
-                            <li>Analytical review highlighting unusual balances and trends</li>
-                            <li>Executive summary for CFO and board presentation</li>
-                            <li>Corrective journal entries and restatement support where needed</li>
-                        </ul>
-                    </div>
-
-                    <div class="reveal" style="margin-top: var(--space-3xl);">
-                        <h2>Who This Is For</h2>
-                        <div class="gold-line"></div>
-                        <ul class="deliverables">
-                            <li>Companies preparing draft financial statements before audit fieldwork</li>
-                            <li>CFOs who want an independent quality check on their reporting</li>
-                            <li>Organizations adopting new accounting standards and need to validate compliance</li>
-                            <li>Companies with complex transactions requiring careful accounting treatment</li>
-                            <li>Multinational entities consolidating financial statements across jurisdictions</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="service-detail__sidebar reveal">
-                    <h3>All Services</h3>
-                    <ul>
-                        <li><a href="audit-readiness.html">Audit Readiness Reviews & Mock Audits</a></li>
-                        <li><a href="financial-diagnostics.html" class="active">Financial Statement Diagnostics</a></li>
-                        <li><a href="gaap-ifrs-advisory.html">GAAP, IFRS & NIIF Advisory</a></li>
-                        <li><a href="internal-controls.html">Internal Controls & Financial Reporting</a></li>
-                    </ul>
-                    <div
-                        style="margin-top: var(--space-2xl); padding-top: var(--space-2xl); border-top: 1px solid var(--gray-200);">
-                        <h3>Ready to Get Started?</h3>
-                        <p style="font-size: 0.9rem; color: var(--text-secondary); margin: var(--space-md) 0;">
-                            Let us review your financial statements before your auditor does.
-                        </p>
-                        <a href="../contact.html" class="btn btn--primary"
-                            style="width: 100%; justify-content: center;">Book a Consultation</a>
+                        <div
+                            style="margin-top: var(--space-2xl); padding-top: var(--space-2xl); border-top: 1px solid var(--gray-200);">
+                            <h3>Ready to Get Started?</h3>
+                            <p style="font-size: 0.9rem; color: var(--text-secondary); margin: var(--space-md) 0;">
+                                Let us review your financial statements before your auditor does.
+                            </p>
+                            <a href="../contact.html" class="btn btn--primary"
+                                style="width: 100%; justify-content: center;">Book a Consultation</a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="section">
-        <div class="container">
-            <div class="cta-banner reveal">
-                <h2>Catch the Errors Before Your Auditor Does</h2>
-                <p>Our diagnostic review gives you the time and insight to present clean financial statements from day
-                    one of your audit.</p>
-                <a href="../contact.html" class="btn btn--primary">Schedule a Diagnostic Review <span
-                        class="btn__arrow">→</span></a>
+        <section class="section">
+            <div class="container">
+                <div class="cta-banner reveal">
+                    <h2>Catch the Errors Before Your Auditor Does</h2>
+                    <p>Our diagnostic review gives you the time and insight to present clean financial statements from
+                        day
+                        one of your audit.</p>
+                    <a href="../contact.html" class="btn btn--primary">Schedule a Diagnostic Review <span
+                            class="btn__arrow">→</span></a>
+                </div>
             </div>
-        </div>
-    </section>
-  </main>
+        </section>
+    </main>
 
     <footer class="footer">
         <div class="container">
             <div class="footer__grid">
                 <div class="footer__brand">
                     <a href="../index.html" class="nav__logo" style="margin-bottom: var(--space-md);">
-                        <img src="../images/logo.svg" alt="Audit Readiness Advisors" class="nav__logo-img" width="120" height="36" >
+                        <img src="../images/logo.svg" alt="Audit Readiness Advisors" class="nav__logo-img" width="120"
+                            height="36">
                     </a>
                     <p>Big Four grade audit readiness, mock audit, and technical accounting advisory.</p>
                 </div>

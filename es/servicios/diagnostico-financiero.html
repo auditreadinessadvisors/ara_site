@@ -3,11 +3,13 @@
 
 <head>
     <meta charset="UTF-8">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" as="style"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diagnóstico de Estados Financieros — Financial Audit Readiness Advisors</title>
     <meta name="description"
         content="Diagnóstico experto de estados financieros para identificar errores, problemas de clasificación y deficiencias en revelaciones antes de la auditoría. Cumplimiento GAAP, IFRS, NIIF.">
@@ -21,40 +23,149 @@
     <meta property="og:description"
         content="Análisis profundo para identificar problemas en estados financieros antes que tu auditor.">
     <meta property="og:type" content="website">
-  <meta property="og:image" content="https://auditreadinessadvisors.com/images/og-image.png">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
+    <meta property="og:image" content="https://auditreadinessadvisors.com/images/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
     <meta property="og:locale" content="es_CO">
     <script type="application/ld+json">
   {"@context":"https://schema.org","@type":"Service","name":"Diagnóstico de Estados Financieros","description":"Análisis profundo de estados financieros para identificar errores materiales, problemas de clasificación y deficiencias en revelaciones.","provider":{"@type":"Organization","name":"Financial Audit Readiness Advisors"},"serviceType":"Asesoría Financiera"}
   </script>
-      <style>
-/* Critical CSS for Ara Site */
-:root { --navy: #0B1D3A; --navy-light: #132B52; --navy-dark: #070F1E; --gold: #C9A84C; --gold-light: #D4BA6A; --gold-dark: #A68B3C; --white: #FFFFFF; --off-white: #F7F8FA; --gray-100: #EEF0F4; --gray-300: #B0B7C5; --text-primary: #1A1F2E; --text-secondary: #5A6374; --font-heading: 'Playfair Display', Georgia, serif; --font-body: 'Inter', sans-serif; --space-md: 1rem; --space-lg: 1.5rem; --space-xl: 2rem; --space-2xl: 3rem; --space-3xl: 4rem; --space-4xl: 6rem; --space-5xl: 8rem; --transition-base: 250ms ease; --radius-sm: 4px; --max-width: 1200px; }
-*,*::before,*::after { margin: 0; padding: 0; box-sizing: border-box; }
-html { scroll-behavior: smooth; font-size: 16px; }
-body { font-family: var(--font-body); color: var(--text-primary); background-color: var(--white); line-height: 1.7; overflow-x: hidden; }
-h1,h2,h3 { font-family: var(--font-heading); font-weight: 700; color: var(--navy); }
-.container { width: 100%; max-width: var(--max-width); margin: 0 auto; padding: 0 var(--space-xl); }
-.nav { position: fixed; top: 0; left: 0; right: 0; z-index: 1000; background: rgba(11, 29, 58, 0.95); backdrop-filter: blur(12px); border-bottom: 1px solid rgba(201, 168, 76, 0.15); }
-.nav__inner { display: flex; align-items: center; justify-content: space-between; height: 72px; max-width: var(--max-width); margin: 0 auto; padding: 0 var(--space-xl); }
-.nav__logo-img { height: 36px; width: auto; display: block; }
-.hero { position: relative; min-height: 100vh; display: flex; align-items: center; background: linear-gradient(160deg, var(--navy-dark) 0%, var(--navy) 50%, var(--navy-light) 100%); padding-top: 72px; color: white; }
-.hero h1 { color: var(--white); font-size: clamp(2.5rem, 5.5vw, 3.8rem); margin-bottom: var(--space-xl); }
-.btn { display: inline-flex; align-items: center; padding: 12px 28px; font-weight: 600; border-radius: var(--radius-sm); transition: all 0.25s; }
-.btn--primary { background: var(--gold); color: var(--navy); }
-</style>
-  
-  <link rel="stylesheet" href="../../css/style.css" media="print" onload="this.media='all'">
-  <noscript><link rel="stylesheet" href="../../css/style.css"></noscript>
-  <link rel="icon" type="image/svg+xml" href="../../images/favicon.svg">
+    <style>
+        /* Critical CSS for Ara Site */
+        :root {
+            --navy: #0B1D3A;
+            --navy-light: #132B52;
+            --navy-dark: #070F1E;
+            --gold: #C9A84C;
+            --gold-light: #D4BA6A;
+            --gold-dark: #A68B3C;
+            --white: #FFFFFF;
+            --off-white: #F7F8FA;
+            --gray-100: #EEF0F4;
+            --gray-300: #B0B7C5;
+            --text-primary: #1A1F2E;
+            --text-secondary: #5A6374;
+            --font-heading: 'Playfair Display', Georgia, serif;
+            --font-body: 'Inter', sans-serif;
+            --space-md: 1rem;
+            --space-lg: 1.5rem;
+            --space-xl: 2rem;
+            --space-2xl: 3rem;
+            --space-3xl: 4rem;
+            --space-4xl: 6rem;
+            --space-5xl: 8rem;
+            --transition-base: 250ms ease;
+            --radius-sm: 4px;
+            --max-width: 1200px;
+        }
+
+        *,
+        *::before,
+        *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            font-size: 16px;
+        }
+
+        body {
+            font-family: var(--font-body);
+            color: var(--text-primary);
+            background-color: var(--white);
+            line-height: 1.7;
+            overflow-x: hidden;
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-family: var(--font-heading);
+            font-weight: 700;
+            color: var(--navy);
+        }
+
+        .container {
+            width: 100%;
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 var(--space-xl);
+        }
+
+        .nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            background: rgba(11, 29, 58, 0.95);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(201, 168, 76, 0.15);
+        }
+
+        .nav__inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 72px;
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 var(--space-xl);
+        }
+
+        .nav__logo-img {
+            height: 36px;
+            width: auto;
+            display: block;
+        }
+
+        .hero {
+            position: relative;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            background: linear-gradient(160deg, var(--navy-dark) 0%, var(--navy) 50%, var(--navy-light) 100%);
+            padding-top: 72px;
+            color: white;
+        }
+
+        .hero h1 {
+            color: var(--white);
+            font-size: clamp(2.5rem, 5.5vw, 3.8rem);
+            margin-bottom: var(--space-xl);
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            padding: 12px 28px;
+            font-weight: 600;
+            border-radius: var(--radius-sm);
+            transition: all 0.25s;
+        }
+
+        .btn--primary {
+            background: var(--gold);
+            color: var(--navy);
+        }
+    </style>
+
+    <link rel="stylesheet" href="../../css/style.css" media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet" href="../../css/style.css">
+    </noscript>
+    <link rel="icon" type="image/svg+xml" href="../../images/favicon.svg">
 </head>
 
 <body>
     <nav class="nav">
         <div class="nav__inner">
             <a href="../index.html" class="nav__logo">
-                <img src="../../images/logo.svg" alt="Financial Audit Readiness Advisors" class="nav__logo-img" width="120" height="36" >
+                <img src="../../images/logo.svg" alt="Financial Audit Readiness Advisors" class="nav__logo-img"
+                    width="120" height="36">
             </a>
             <div class="nav__links" id="nav-links">
                 <a href="../index.html" class="nav__link">Inicio</a>
@@ -65,110 +176,116 @@ h1,h2,h3 { font-family: var(--font-heading); font-weight: 700; color: var(--navy
             </div>
             <div class="nav__actions">
                 <button class="nav__lang" onclick="switchLanguage('en')" aria-label="Cambiar a inglés">EN</button>
-                <a href="../contacto.html" class="nav__cta">Agendar Consulta</a>
+                <a href="../evaluacion.html" class="nav__cta">Evaluación Gratuita</a>
             </div>
             <button class="nav__toggle" id="nav-toggle"
                 aria-label="Abrir menú"><span></span><span></span><span></span></button>
         </div>
     </nav>
 
-  <main id="main-content">
+    <main id="main-content">
 
-<section class="page-hero">
-        <div class="container">
-            <span class="section-label">Diagnóstico y Análisis</span>
-            <h1>Diagnóstico de Estados Financieros</h1>
-            <p>Un análisis riguroso línea por línea de tus estados financieros para descubrir problemas antes que tu
-                auditor — protegiendo tu credibilidad y acelerando el proceso de auditoría.</p>
-        </div>
-    </section>
+        <section class="page-hero">
+            <div class="container">
+                <span class="section-label">Diagnóstico y Análisis</span>
+                <h1>Diagnóstico de Estados Financieros</h1>
+                <p>Un análisis riguroso línea por línea de tus estados financieros para descubrir problemas antes que tu
+                    auditor — protegiendo tu credibilidad y acelerando el proceso de auditoría.</p>
+            </div>
+        </section>
 
-    <section class="section">
-        <div class="container">
-            <div class="service-detail">
-                <div>
-                    <div class="reveal">
-                        <h2>El Problema</h2>
-                        <div class="gold-line"></div>
-                        <p class="lead">Los estados financieros son la base de toda auditoría. Cuando contienen errores,
-                            inconsistencias o brechas en revelaciones, las consecuencias se propagan por todo el
-                            engagement.</p>
-                        <p>Que los auditores encuentren errores en tus estados financieros lleva a ajustes de auditoría,
-                            comentarios en la Carta a la Gerencia, cronogramas extendidos y — en los peores casos —
-                            re-expresiones que dañan la credibilidad ante juntas directivas, inversionistas y
-                            acreedores.</p>
+        <section class="section">
+            <div class="container">
+                <div class="service-detail">
+                    <div>
+                        <div class="reveal">
+                            <h2>El Problema</h2>
+                            <div class="gold-line"></div>
+                            <p class="lead">Los estados financieros son la base de toda auditoría. Cuando contienen
+                                errores,
+                                inconsistencias o brechas en revelaciones, las consecuencias se propagan por todo el
+                                engagement.</p>
+                            <p>Que los auditores encuentren errores en tus estados financieros lleva a ajustes de
+                                auditoría,
+                                comentarios en la Carta a la Gerencia, cronogramas extendidos y — en los peores casos —
+                                re-expresiones que dañan la credibilidad ante juntas directivas, inversionistas y
+                                acreedores.</p>
+                        </div>
+                        <div class="reveal" style="margin-top: var(--space-3xl);">
+                            <h2>Nuestro Enfoque</h2>
+                            <div class="gold-line"></div>
+                            <p>Aplicamos procedimientos analíticos de calibre Big Four a tus estados financieros,
+                                examinando
+                                cada saldo material, clase de transacción y revelación contra el marco contable
+                                aplicable.
+                            </p>
+                            <ul class="deliverables">
+                                <li>Errores materiales potenciales en saldos de cuentas</li>
+                                <li>Inconsistencias entre partidas de estados financieros y cédulas de soporte</li>
+                                <li>Errores de clasificación que impactan la calidad de resultados y posición financiera
+                                </li>
+                                <li>Deficiencias en revelaciones bajo requisitos de US GAAP, IFRS o NIIF</li>
+                                <li>Elecciones de políticas contables inconsistentes o subóptimas</li>
+                                <li>Problemas de presentación que podrían generar indagaciones del auditor</li>
+                            </ul>
+                        </div>
+                        <div class="reveal" style="margin-top: var(--space-3xl);">
+                            <h2>Lo Que Recibes</h2>
+                            <div class="gold-line"></div>
+                            <ul class="deliverables">
+                                <li>Marcado detallado de estados financieros con problemas identificados y anotados</li>
+                                <li>Análisis de impacto cuantificado para cada error identificado</li>
+                                <li>Orientación específica del marco contable sobre correcciones requeridas</li>
+                                <li>Lista de verificación de revelaciones adaptada a tu marco e industria</li>
+                                <li>Revisión analítica destacando saldos y tendencias inusuales</li>
+                                <li>Resumen ejecutivo para presentación al CFO y junta directiva</li>
+                                <li>Asientos de ajuste correctivos y soporte de re-expresión cuando sea necesario</li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="reveal" style="margin-top: var(--space-3xl);">
-                        <h2>Nuestro Enfoque</h2>
-                        <div class="gold-line"></div>
-                        <p>Aplicamos procedimientos analíticos de calibre Big Four a tus estados financieros, examinando
-                            cada saldo material, clase de transacción y revelación contra el marco contable aplicable.
-                        </p>
-                        <ul class="deliverables">
-                            <li>Errores materiales potenciales en saldos de cuentas</li>
-                            <li>Inconsistencias entre partidas de estados financieros y cédulas de soporte</li>
-                            <li>Errores de clasificación que impactan la calidad de resultados y posición financiera
+                    <div class="service-detail__sidebar reveal">
+                        <h3>Todos los Servicios</h3>
+                        <ul>
+                            <li><a href="preparacion-auditoria.html">Preparación para Auditoría</a></li>
+                            <li><a href="diagnostico-financiero.html" class="active">Diagnóstico de Estados
+                                    Financieros</a>
                             </li>
-                            <li>Deficiencias en revelaciones bajo requisitos de US GAAP, IFRS o NIIF</li>
-                            <li>Elecciones de políticas contables inconsistentes o subóptimas</li>
-                            <li>Problemas de presentación que podrían generar indagaciones del auditor</li>
+                            <li><a href="asesoria-gaap-ifrs-niif.html">Asesoría GAAP, IFRS y NIIF</a></li>
+                            <li><a href="controles-internos.html">Controles Internos</a></li>
                         </ul>
-                    </div>
-                    <div class="reveal" style="margin-top: var(--space-3xl);">
-                        <h2>Lo Que Recibes</h2>
-                        <div class="gold-line"></div>
-                        <ul class="deliverables">
-                            <li>Marcado detallado de estados financieros con problemas identificados y anotados</li>
-                            <li>Análisis de impacto cuantificado para cada error identificado</li>
-                            <li>Orientación específica del marco contable sobre correcciones requeridas</li>
-                            <li>Lista de verificación de revelaciones adaptada a tu marco e industria</li>
-                            <li>Revisión analítica destacando saldos y tendencias inusuales</li>
-                            <li>Resumen ejecutivo para presentación al CFO y junta directiva</li>
-                            <li>Asientos de ajuste correctivos y soporte de re-expresión cuando sea necesario</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="service-detail__sidebar reveal">
-                    <h3>Todos los Servicios</h3>
-                    <ul>
-                        <li><a href="preparacion-auditoria.html">Preparación para Auditoría</a></li>
-                        <li><a href="diagnostico-financiero.html" class="active">Diagnóstico de Estados Financieros</a>
-                        </li>
-                        <li><a href="asesoria-gaap-ifrs-niif.html">Asesoría GAAP, IFRS y NIIF</a></li>
-                        <li><a href="controles-internos.html">Controles Internos</a></li>
-                    </ul>
-                    <div
-                        style="margin-top: var(--space-2xl); padding-top: var(--space-2xl); border-top: 1px solid var(--gray-200);">
-                        <h3>¿Listo para Comenzar?</h3>
-                        <p style="font-size: 0.9rem; color: var(--text-secondary); margin: var(--space-md) 0;">
-                            Permítenos revisar tus estados financieros antes que tu auditor.</p>
-                        <a href="../contacto.html" class="btn btn--primary"
-                            style="width: 100%; justify-content: center;">Agendar Consulta</a>
+                        <div
+                            style="margin-top: var(--space-2xl); padding-top: var(--space-2xl); border-top: 1px solid var(--gray-200);">
+                            <h3>¿Listo para Comenzar?</h3>
+                            <p style="font-size: 0.9rem; color: var(--text-secondary); margin: var(--space-md) 0;">
+                                Permítenos revisar tus estados financieros antes que tu auditor.</p>
+                            <a href="../contacto.html" class="btn btn--primary"
+                                style="width: 100%; justify-content: center;">Agendar Consulta</a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="section">
-        <div class="container">
-            <div class="cta-banner reveal">
-                <h2>Detecta los Errores Antes que tu Auditor</h2>
-                <p>Nuestra revisión diagnóstica te da el tiempo y la perspectiva para presentar estados financieros
-                    limpios desde el primer día de tu auditoría.</p>
-                <a href="../contacto.html" class="btn btn--primary">Agendar Revisión Diagnóstica <span
-                        class="btn__arrow">→</span></a>
+        <section class="section">
+            <div class="container">
+                <div class="cta-banner reveal">
+                    <h2>Detecta los Errores Antes que tu Auditor</h2>
+                    <p>Nuestra revisión diagnóstica te da el tiempo y la perspectiva para presentar estados financieros
+                        limpios desde el primer día de tu auditoría.</p>
+                    <a href="../contacto.html" class="btn btn--primary">Agendar Revisión Diagnóstica <span
+                            class="btn__arrow">→</span></a>
+                </div>
             </div>
-        </div>
-    </section>
-  </main>
+        </section>
+    </main>
 
     <footer class="footer">
         <div class="container">
             <div class="footer__grid">
                 <div class="footer__brand"><a href="../index.html" class="nav__logo"
                         style="margin-bottom: var(--space-md);">
-                        <img src="../../images/logo.svg" alt="Financial Audit Readiness Advisors" class="nav__logo-img" width="120" height="36" >
+                        <img src="../../images/logo.svg" alt="Financial Audit Readiness Advisors" class="nav__logo-img"
+                            width="120" height="36">
                     </a>
                     <p>Asesoría de preparación para auditoría con experiencia Big Four.</p>
                 </div>

@@ -3,11 +3,13 @@
 
 <head>
     <meta charset="UTF-8">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" as="style"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book a Consultation — Audit Readiness Advisors</title>
     <meta name="description"
         content="Schedule a confidential consultation with our audit readiness advisory team. Discuss your audit timeline, readiness needs, and get a clear path forward.">
@@ -21,30 +23,138 @@
     <meta property="og:description"
         content="Schedule a confidential consultation to discuss your audit readiness needs.">
     <meta property="og:type" content="website">
-  <meta property="og:image" content="https://auditreadinessadvisors.com/images/og-image.png">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
+    <meta property="og:image" content="https://auditreadinessadvisors.com/images/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
 
-      <style>
-/* Critical CSS for Ara Site */
-:root { --navy: #0B1D3A; --navy-light: #132B52; --navy-dark: #070F1E; --gold: #C9A84C; --gold-light: #D4BA6A; --gold-dark: #A68B3C; --white: #FFFFFF; --off-white: #F7F8FA; --gray-100: #EEF0F4; --gray-300: #B0B7C5; --text-primary: #1A1F2E; --text-secondary: #5A6374; --font-heading: 'Playfair Display', Georgia, serif; --font-body: 'Inter', sans-serif; --space-md: 1rem; --space-lg: 1.5rem; --space-xl: 2rem; --space-2xl: 3rem; --space-3xl: 4rem; --space-4xl: 6rem; --space-5xl: 8rem; --transition-base: 250ms ease; --radius-sm: 4px; --max-width: 1200px; }
-*,*::before,*::after { margin: 0; padding: 0; box-sizing: border-box; }
-html { scroll-behavior: smooth; font-size: 16px; }
-body { font-family: var(--font-body); color: var(--text-primary); background-color: var(--white); line-height: 1.7; overflow-x: hidden; }
-h1,h2,h3 { font-family: var(--font-heading); font-weight: 700; color: var(--navy); }
-.container { width: 100%; max-width: var(--max-width); margin: 0 auto; padding: 0 var(--space-xl); }
-.nav { position: fixed; top: 0; left: 0; right: 0; z-index: 1000; background: rgba(11, 29, 58, 0.95); backdrop-filter: blur(12px); border-bottom: 1px solid rgba(201, 168, 76, 0.15); }
-.nav__inner { display: flex; align-items: center; justify-content: space-between; height: 72px; max-width: var(--max-width); margin: 0 auto; padding: 0 var(--space-xl); }
-.nav__logo-img { height: 36px; width: auto; display: block; }
-.hero { position: relative; min-height: 100vh; display: flex; align-items: center; background: linear-gradient(160deg, var(--navy-dark) 0%, var(--navy) 50%, var(--navy-light) 100%); padding-top: 72px; color: white; }
-.hero h1 { color: var(--white); font-size: clamp(2.5rem, 5.5vw, 3.8rem); margin-bottom: var(--space-xl); }
-.btn { display: inline-flex; align-items: center; padding: 12px 28px; font-weight: 600; border-radius: var(--radius-sm); transition: all 0.25s; }
-.btn--primary { background: var(--gold); color: var(--navy); }
-</style>
-  
-  <link rel="stylesheet" href="css/style.css" media="print" onload="this.media='all'">
-  <noscript><link rel="stylesheet" href="css/style.css"></noscript>
-  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+    <style>
+        /* Critical CSS for Ara Site */
+        :root {
+            --navy: #0B1D3A;
+            --navy-light: #132B52;
+            --navy-dark: #070F1E;
+            --gold: #C9A84C;
+            --gold-light: #D4BA6A;
+            --gold-dark: #A68B3C;
+            --white: #FFFFFF;
+            --off-white: #F7F8FA;
+            --gray-100: #EEF0F4;
+            --gray-300: #B0B7C5;
+            --text-primary: #1A1F2E;
+            --text-secondary: #5A6374;
+            --font-heading: 'Playfair Display', Georgia, serif;
+            --font-body: 'Inter', sans-serif;
+            --space-md: 1rem;
+            --space-lg: 1.5rem;
+            --space-xl: 2rem;
+            --space-2xl: 3rem;
+            --space-3xl: 4rem;
+            --space-4xl: 6rem;
+            --space-5xl: 8rem;
+            --transition-base: 250ms ease;
+            --radius-sm: 4px;
+            --max-width: 1200px;
+        }
+
+        *,
+        *::before,
+        *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            font-size: 16px;
+        }
+
+        body {
+            font-family: var(--font-body);
+            color: var(--text-primary);
+            background-color: var(--white);
+            line-height: 1.7;
+            overflow-x: hidden;
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-family: var(--font-heading);
+            font-weight: 700;
+            color: var(--navy);
+        }
+
+        .container {
+            width: 100%;
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 var(--space-xl);
+        }
+
+        .nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            background: rgba(11, 29, 58, 0.95);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(201, 168, 76, 0.15);
+        }
+
+        .nav__inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 72px;
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 var(--space-xl);
+        }
+
+        .nav__logo-img {
+            height: 36px;
+            width: auto;
+            display: block;
+        }
+
+        .hero {
+            position: relative;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            background: linear-gradient(160deg, var(--navy-dark) 0%, var(--navy) 50%, var(--navy-light) 100%);
+            padding-top: 72px;
+            color: white;
+        }
+
+        .hero h1 {
+            color: var(--white);
+            font-size: clamp(2.5rem, 5.5vw, 3.8rem);
+            margin-bottom: var(--space-xl);
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            padding: 12px 28px;
+            font-weight: 600;
+            border-radius: var(--radius-sm);
+            transition: all 0.25s;
+        }
+
+        .btn--primary {
+            background: var(--gold);
+            color: var(--navy);
+        }
+    </style>
+
+    <link rel="stylesheet" href="css/style.css" media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet" href="css/style.css">
+    </noscript>
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
 </head>
 
 <body>
@@ -52,7 +162,7 @@ h1,h2,h3 { font-family: var(--font-heading); font-weight: 700; color: var(--navy
     <nav class="nav" id="main-nav">
         <div class="nav__inner">
             <a href="index.html" class="nav__logo">
-                <img src="images/logo.svg" alt="Audit Readiness Advisors" class="nav__logo-img" width="120" height="36" >
+                <img src="images/logo.svg" alt="Audit Readiness Advisors" class="nav__logo-img" width="120" height="36">
             </a>
             <div class="nav__links" id="nav-links">
                 <a href="index.html" class="nav__link">Home</a>
@@ -63,154 +173,160 @@ h1,h2,h3 { font-family: var(--font-heading); font-weight: 700; color: var(--navy
             </div>
             <div class="nav__actions">
                 <button class="nav__lang" onclick="switchLanguage('es')" aria-label="Switch to Spanish">ES</button>
-                <a href="contact.html" class="nav__cta">Book a Consultation</a>
+                <a href="assessment.html" class="nav__cta">Free Assessment</a>
             </div>
             <button class="nav__toggle" id="nav-toggle"
                 aria-label="Toggle navigation"><span></span><span></span><span></span></button>
         </div>
     </nav>
 
-  <main id="main-content">
+    <main id="main-content">
 
-<section class="page-hero">
-        <div class="container">
-            <span class="section-label">Get in Touch</span>
-            <h1>Book a Confidential Consultation</h1>
-            <p>Tell us about your audit timeline and readiness needs. We'll respond within one business day to schedule
-                a call.</p>
-        </div>
-    </section>
+        <section class="page-hero">
+            <div class="container">
+                <span class="section-label">Get in Touch</span>
+                <h1>Book a Confidential Consultation</h1>
+                <p>Tell us about your audit timeline and readiness needs. We'll respond within one business day to
+                    schedule
+                    a call.</p>
+            </div>
+        </section>
 
-    <section class="section">
-        <div class="container">
-            <div class="service-detail">
-                <div class="reveal">
-                    <h2>Send Us a Message</h2>
-                    <div class="gold-line"></div>
-                    <p style="margin-bottom: var(--space-2xl);">
-                        Complete the form below and a senior member of our team will follow up to discuss your needs.
-                        All inquiries are treated as confidential.
-                    </p>
-
-                    <form class="contact-form" id="contact-form" action="#" method="POST">
-                        <div class="form-row">
-                            <div class="form-group">
-                                <label for="first-name">First Name *</label>
-                                <input type="text" id="first-name" name="first_name" required placeholder="Jane">
-                            </div>
-                            <div class="form-group">
-                                <label for="last-name">Last Name *</label>
-                                <input type="text" id="last-name" name="last_name" required placeholder="Smith">
-                            </div>
-                        </div>
-
-                        <div class="form-row">
-                            <div class="form-group">
-                                <label for="email">Business Email *</label>
-                                <input type="email" id="email" name="email" required placeholder="jane@company.com">
-                            </div>
-                            <div class="form-group">
-                                <label for="company">Company Name *</label>
-                                <input type="text" id="company" name="company" required placeholder="Acme Corporation">
-                            </div>
-                        </div>
-
-                        <div class="form-row">
-                            <div class="form-group">
-                                <label for="role">Your Role</label>
-                                <select id="role" name="role">
-                                    <option value="">Select your role</option>
-                                    <option value="cfo">CFO / VP Finance</option>
-                                    <option value="controller">Controller</option>
-                                    <option value="director">Director of Accounting</option>
-                                    <option value="ceo">CEO / Founder</option>
-                                    <option value="coo">COO</option>
-                                    <option value="pe">PE / VC Partner</option>
-                                    <option value="other">Other</option>
-                                </select>
-                            </div>
-                            <div class="form-group">
-                                <label for="service">Service of Interest</label>
-                                <select id="service" name="service">
-                                    <option value="">Select a service</option>
-                                    <option value="audit-readiness">Audit Readiness Review / Mock Audit</option>
-                                    <option value="diagnostics">Financial Statement Diagnostics</option>
-                                    <option value="gaap-ifrs">GAAP / IFRS / NIIF Advisory</option>
-                                    <option value="internal-controls">Internal Controls Advisory</option>
-                                    <option value="multiple">Multiple Services</option>
-                                    <option value="not-sure">Not Sure Yet</option>
-                                </select>
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <label for="message">Tell Us About Your Needs</label>
-                            <textarea id="message" name="message"
-                                placeholder="Please describe your audit timeline, key concerns, and how we can help. For example: 'We have a year-end audit in Q1 2027 and need a mock audit to identify potential issues.'"></textarea>
-                        </div>
-
-                        <button type="submit" class="btn btn--primary" id="submit-btn" style="align-self: flex-start;">
-                            Send Message <span class="btn__arrow">→</span>
-                        </button>
-
-                        <p style="font-size: 0.8rem; color: var(--text-muted); margin-top: var(--space-sm);">
-                            By submitting this form, you agree to be contacted by Audit Readiness Advisors regarding
-                            your inquiry. We will never share your information with third parties.
+        <section class="section">
+            <div class="container">
+                <div class="service-detail">
+                    <div class="reveal">
+                        <h2>Send Us a Message</h2>
+                        <div class="gold-line"></div>
+                        <p style="margin-bottom: var(--space-2xl);">
+                            Complete the form below and a senior member of our team will follow up to discuss your
+                            needs.
+                            All inquiries are treated as confidential.
                         </p>
-                    </form>
-                </div>
 
-                <div class="reveal reveal--delay-2">
-                    <div class="card card--navy" style="margin-bottom: var(--space-xl);">
-                        <h3 class="card__title">📅 Prefer to Book Directly?</h3>
-                        <p class="card__text">
-                            Schedule a 30-minute discovery call with a senior member of our team at a time that works
-                            for you.
-                        </p>
-                        <a href="#" class="card__link" style="color: var(--gold);">Schedule on Calendly →</a>
+                        <form class="contact-form" id="contact-form" action="#" method="POST">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="first-name">First Name *</label>
+                                    <input type="text" id="first-name" name="first_name" required placeholder="Jane">
+                                </div>
+                                <div class="form-group">
+                                    <label for="last-name">Last Name *</label>
+                                    <input type="text" id="last-name" name="last_name" required placeholder="Smith">
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="email">Business Email *</label>
+                                    <input type="email" id="email" name="email" required placeholder="jane@company.com">
+                                </div>
+                                <div class="form-group">
+                                    <label for="company">Company Name *</label>
+                                    <input type="text" id="company" name="company" required
+                                        placeholder="Acme Corporation">
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="role">Your Role</label>
+                                    <select id="role" name="role">
+                                        <option value="">Select your role</option>
+                                        <option value="cfo">CFO / VP Finance</option>
+                                        <option value="controller">Controller</option>
+                                        <option value="director">Director of Accounting</option>
+                                        <option value="ceo">CEO / Founder</option>
+                                        <option value="coo">COO</option>
+                                        <option value="pe">PE / VC Partner</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="service">Service of Interest</label>
+                                    <select id="service" name="service">
+                                        <option value="">Select a service</option>
+                                        <option value="audit-readiness">Audit Readiness Review / Mock Audit</option>
+                                        <option value="diagnostics">Financial Statement Diagnostics</option>
+                                        <option value="gaap-ifrs">GAAP / IFRS / NIIF Advisory</option>
+                                        <option value="internal-controls">Internal Controls Advisory</option>
+                                        <option value="multiple">Multiple Services</option>
+                                        <option value="not-sure">Not Sure Yet</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Tell Us About Your Needs</label>
+                                <textarea id="message" name="message"
+                                    placeholder="Please describe your audit timeline, key concerns, and how we can help. For example: 'We have a year-end audit in Q1 2027 and need a mock audit to identify potential issues.'"></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn--primary" id="submit-btn"
+                                style="align-self: flex-start;">
+                                Send Message <span class="btn__arrow">→</span>
+                            </button>
+
+                            <p style="font-size: 0.8rem; color: var(--text-muted); margin-top: var(--space-sm);">
+                                By submitting this form, you agree to be contacted by Audit Readiness Advisors regarding
+                                your inquiry. We will never share your information with third parties.
+                            </p>
+                        </form>
                     </div>
 
-                    <div class="card card--navy" style="margin-bottom: var(--space-xl);">
-                        <h3 class="card__title">📧 Email Us</h3>
-                        <p class="card__text">
-                            Prefer email? Reach us directly at:
-                        </p>
-                        <a href="mailto:info@auditreadinessadvisors.com" class="card__link"
-                            style="color: var(--gold);">info@auditreadinessadvisors.com</a>
-                    </div>
+                    <div class="reveal reveal--delay-2">
+                        <div class="card card--navy" style="margin-bottom: var(--space-xl);">
+                            <h3 class="card__title">📅 Prefer to Book Directly?</h3>
+                            <p class="card__text">
+                                Schedule a 30-minute discovery call with a senior member of our team at a time that
+                                works
+                                for you.
+                            </p>
+                            <a href="#" class="card__link" style="color: var(--gold);">Schedule on Calendly →</a>
+                        </div>
 
-                    <div class="card card--navy">
-                        <h3 class="card__title">🌎 We Serve</h3>
-                        <p class="card__text">
-                            United States · Colombia · Argentina · Latin America
-                        </p>
-                        <p class="card__text" style="margin-bottom: 0;">
-                            Virtual engagements available worldwide.
-                        </p>
-                    </div>
+                        <div class="card card--navy" style="margin-bottom: var(--space-xl);">
+                            <h3 class="card__title">📧 Email Us</h3>
+                            <p class="card__text">
+                                Prefer email? Reach us directly at:
+                            </p>
+                            <a href="mailto:info@auditreadinessadvisors.com" class="card__link"
+                                style="color: var(--gold);">info@auditreadinessadvisors.com</a>
+                        </div>
 
-                    <div
-                        style="margin-top: var(--space-2xl); padding: var(--space-xl); background: var(--off-white); border-radius: var(--radius-lg);">
-                        <h4 style="font-size: 1rem; margin-bottom: var(--space-md);">What to Expect</h4>
-                        <ul class="deliverables">
-                            <li>Response within 1 business day</li>
-                            <li>30-minute confidential discovery call</li>
-                            <li>No obligation, no sales pressure</li>
-                            <li>Clear next steps and engagement proposal</li>
-                        </ul>
+                        <div class="card card--navy">
+                            <h3 class="card__title">🌎 We Serve</h3>
+                            <p class="card__text">
+                                United States · Colombia · Argentina · Latin America
+                            </p>
+                            <p class="card__text" style="margin-bottom: 0;">
+                                Virtual engagements available worldwide.
+                            </p>
+                        </div>
+
+                        <div
+                            style="margin-top: var(--space-2xl); padding: var(--space-xl); background: var(--off-white); border-radius: var(--radius-lg);">
+                            <h4 style="font-size: 1rem; margin-bottom: var(--space-md);">What to Expect</h4>
+                            <ul class="deliverables">
+                                <li>Response within 1 business day</li>
+                                <li>30-minute confidential discovery call</li>
+                                <li>No obligation, no sales pressure</li>
+                                <li>Clear next steps and engagement proposal</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-  </main>
+        </section>
+    </main>
 
     <footer class="footer">
         <div class="container">
             <div class="footer__grid">
                 <div class="footer__brand">
                     <a href="index.html" class="nav__logo" style="margin-bottom: var(--space-md);">
-                        <img src="images/logo.svg" alt="Audit Readiness Advisors" class="nav__logo-img" width="120" height="36" >
+                        <img src="images/logo.svg" alt="Audit Readiness Advisors" class="nav__logo-img" width="120"
+                            height="36">
                     </a>
                     <p>Big Four grade audit readiness, mock audit, and technical accounting advisory.</p>
                 </div>
@@ -229,6 +345,7 @@ h1,h2,h3 { font-family: var(--font-heading); font-weight: 700; color: var(--navy
                         <li><a href="about.html">About Us</a></li>
                         <li><a href="faq.html">FAQ</a></li>
                         <li><a href="contact.html">Contact</a></li>
+                        <li><a href="assessment.html">Free Assessment</a></li>
                     </ul>
                 </div>
                 <div>

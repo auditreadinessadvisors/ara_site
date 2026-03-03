@@ -3,11 +3,13 @@
 
 <head>
     <meta charset="UTF-8">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" as="style"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GAAP, IFRS & NIIF Technical Accounting Advisory — Audit Readiness Advisors</title>
     <meta name="description"
         content="Technical accounting advisory for US GAAP, IFRS, and NIIF (Colombia). Expert guidance on complex transactions, new standards adoption, and cross-border financial reporting.">
@@ -22,9 +24,9 @@
     <meta property="og:description"
         content="Expert technical accounting guidance across US GAAP, IFRS, and NIIF for complex and cross-border transactions.">
     <meta property="og:type" content="website">
-  <meta property="og:image" content="https://auditreadinessadvisors.com/images/og-image.png">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
+    <meta property="og:image" content="https://auditreadinessadvisors.com/images/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
 
     <script type="application/ld+json">
   {
@@ -37,26 +39,134 @@
   }
   </script>
 
-      <style>
-/* Critical CSS for Ara Site */
-:root { --navy: #0B1D3A; --navy-light: #132B52; --navy-dark: #070F1E; --gold: #C9A84C; --gold-light: #D4BA6A; --gold-dark: #A68B3C; --white: #FFFFFF; --off-white: #F7F8FA; --gray-100: #EEF0F4; --gray-300: #B0B7C5; --text-primary: #1A1F2E; --text-secondary: #5A6374; --font-heading: 'Playfair Display', Georgia, serif; --font-body: 'Inter', sans-serif; --space-md: 1rem; --space-lg: 1.5rem; --space-xl: 2rem; --space-2xl: 3rem; --space-3xl: 4rem; --space-4xl: 6rem; --space-5xl: 8rem; --transition-base: 250ms ease; --radius-sm: 4px; --max-width: 1200px; }
-*,*::before,*::after { margin: 0; padding: 0; box-sizing: border-box; }
-html { scroll-behavior: smooth; font-size: 16px; }
-body { font-family: var(--font-body); color: var(--text-primary); background-color: var(--white); line-height: 1.7; overflow-x: hidden; }
-h1,h2,h3 { font-family: var(--font-heading); font-weight: 700; color: var(--navy); }
-.container { width: 100%; max-width: var(--max-width); margin: 0 auto; padding: 0 var(--space-xl); }
-.nav { position: fixed; top: 0; left: 0; right: 0; z-index: 1000; background: rgba(11, 29, 58, 0.95); backdrop-filter: blur(12px); border-bottom: 1px solid rgba(201, 168, 76, 0.15); }
-.nav__inner { display: flex; align-items: center; justify-content: space-between; height: 72px; max-width: var(--max-width); margin: 0 auto; padding: 0 var(--space-xl); }
-.nav__logo-img { height: 36px; width: auto; display: block; }
-.hero { position: relative; min-height: 100vh; display: flex; align-items: center; background: linear-gradient(160deg, var(--navy-dark) 0%, var(--navy) 50%, var(--navy-light) 100%); padding-top: 72px; color: white; }
-.hero h1 { color: var(--white); font-size: clamp(2.5rem, 5.5vw, 3.8rem); margin-bottom: var(--space-xl); }
-.btn { display: inline-flex; align-items: center; padding: 12px 28px; font-weight: 600; border-radius: var(--radius-sm); transition: all 0.25s; }
-.btn--primary { background: var(--gold); color: var(--navy); }
-</style>
-  
-  <link rel="stylesheet" href="../css/style.css" media="print" onload="this.media='all'">
-  <noscript><link rel="stylesheet" href="../css/style.css"></noscript>
-  <link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
+    <style>
+        /* Critical CSS for Ara Site */
+        :root {
+            --navy: #0B1D3A;
+            --navy-light: #132B52;
+            --navy-dark: #070F1E;
+            --gold: #C9A84C;
+            --gold-light: #D4BA6A;
+            --gold-dark: #A68B3C;
+            --white: #FFFFFF;
+            --off-white: #F7F8FA;
+            --gray-100: #EEF0F4;
+            --gray-300: #B0B7C5;
+            --text-primary: #1A1F2E;
+            --text-secondary: #5A6374;
+            --font-heading: 'Playfair Display', Georgia, serif;
+            --font-body: 'Inter', sans-serif;
+            --space-md: 1rem;
+            --space-lg: 1.5rem;
+            --space-xl: 2rem;
+            --space-2xl: 3rem;
+            --space-3xl: 4rem;
+            --space-4xl: 6rem;
+            --space-5xl: 8rem;
+            --transition-base: 250ms ease;
+            --radius-sm: 4px;
+            --max-width: 1200px;
+        }
+
+        *,
+        *::before,
+        *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            font-size: 16px;
+        }
+
+        body {
+            font-family: var(--font-body);
+            color: var(--text-primary);
+            background-color: var(--white);
+            line-height: 1.7;
+            overflow-x: hidden;
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-family: var(--font-heading);
+            font-weight: 700;
+            color: var(--navy);
+        }
+
+        .container {
+            width: 100%;
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 var(--space-xl);
+        }
+
+        .nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            background: rgba(11, 29, 58, 0.95);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(201, 168, 76, 0.15);
+        }
+
+        .nav__inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 72px;
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 var(--space-xl);
+        }
+
+        .nav__logo-img {
+            height: 36px;
+            width: auto;
+            display: block;
+        }
+
+        .hero {
+            position: relative;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            background: linear-gradient(160deg, var(--navy-dark) 0%, var(--navy) 50%, var(--navy-light) 100%);
+            padding-top: 72px;
+            color: white;
+        }
+
+        .hero h1 {
+            color: var(--white);
+            font-size: clamp(2.5rem, 5.5vw, 3.8rem);
+            margin-bottom: var(--space-xl);
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            padding: 12px 28px;
+            font-weight: 600;
+            border-radius: var(--radius-sm);
+            transition: all 0.25s;
+        }
+
+        .btn--primary {
+            background: var(--gold);
+            color: var(--navy);
+        }
+    </style>
+
+    <link rel="stylesheet" href="../css/style.css" media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet" href="../css/style.css">
+    </noscript>
+    <link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
 </head>
 
 <body>
@@ -64,7 +174,8 @@ h1,h2,h3 { font-family: var(--font-heading); font-weight: 700; color: var(--navy
     <nav class="nav" id="main-nav">
         <div class="nav__inner">
             <a href="../index.html" class="nav__logo">
-                <img src="../images/logo.svg" alt="Audit Readiness Advisors" class="nav__logo-img" width="120" height="36" >
+                <img src="../images/logo.svg" alt="Audit Readiness Advisors" class="nav__logo-img" width="120"
+                    height="36">
             </a>
             <div class="nav__links" id="nav-links">
                 <a href="../index.html" class="nav__link">Home</a>
@@ -75,150 +186,162 @@ h1,h2,h3 { font-family: var(--font-heading); font-weight: 700; color: var(--navy
             </div>
             <div class="nav__actions">
                 <button class="nav__lang" onclick="switchLanguage('es')" aria-label="Switch to Spanish">ES</button>
-                <a href="../contact.html" class="nav__cta">Book a Consultation</a>
+                <a href="../assessment.html" class="nav__cta">Free Assessment</a>
             </div>
             <button class="nav__toggle" id="nav-toggle"
                 aria-label="Toggle navigation"><span></span><span></span><span></span></button>
         </div>
     </nav>
 
-  <main id="main-content">
+    <main id="main-content">
 
-<section class="page-hero">
-        <div class="container">
-            <span class="section-label">Technical Accounting</span>
-            <h1>GAAP, IFRS &amp; NIIF Technical Accounting Advisory</h1>
-            <p>Navigate complex accounting standards with confidence. Expert guidance on US GAAP, IFRS, and NIIF for
-                Colombia and Latin America — from initial assessment to implementation.</p>
-        </div>
-    </section>
+        <section class="page-hero">
+            <div class="container">
+                <span class="section-label">Technical Accounting</span>
+                <h1>GAAP, IFRS &amp; NIIF Technical Accounting Advisory</h1>
+                <p>Navigate complex accounting standards with confidence. Expert guidance on US GAAP, IFRS, and NIIF for
+                    Colombia and Latin America — from initial assessment to implementation.</p>
+            </div>
+        </section>
 
-    <section class="section">
-        <div class="container">
-            <div class="service-detail">
-                <div>
-                    <div class="reveal">
-                        <h2>The Challenge</h2>
-                        <div class="gold-line"></div>
-                        <p class="lead">
-                            Accounting standards are becoming increasingly complex. Revenue recognition, lease
-                            accounting, financial instruments, business combinations, and consolidation requirements
-                            demand specialized knowledge that many in-house teams don't have the bandwidth to maintain.
-                        </p>
-                        <p>
-                            Cross-border operations compound this challenge. Companies operating in the United States
-                            and Latin America must often navigate between US GAAP and IFRS/NIIF — two frameworks that
-                            share principles but diverge in critical areas. Misapplication of these standards leads to
-                            audit adjustments, regulatory scrutiny, and financial reporting delays.
-                        </p>
-                    </div>
+        <section class="section">
+            <div class="container">
+                <div class="service-detail">
+                    <div>
+                        <div class="reveal">
+                            <h2>The Challenge</h2>
+                            <div class="gold-line"></div>
+                            <p class="lead">
+                                Accounting standards are becoming increasingly complex. Revenue recognition, lease
+                                accounting, financial instruments, business combinations, and consolidation requirements
+                                demand specialized knowledge that many in-house teams don't have the bandwidth to
+                                maintain.
+                            </p>
+                            <p>
+                                Cross-border operations compound this challenge. Companies operating in the United
+                                States
+                                and Latin America must often navigate between US GAAP and IFRS/NIIF — two frameworks
+                                that
+                                share principles but diverge in critical areas. Misapplication of these standards leads
+                                to
+                                audit adjustments, regulatory scrutiny, and financial reporting delays.
+                            </p>
+                        </div>
 
-                    <div class="reveal" style="margin-top: var(--space-3xl);">
-                        <h2>How We Help</h2>
-                        <div class="gold-line"></div>
-                        <p>We provide hands-on technical accounting advisory across the full spectrum of US GAAP, IFRS,
-                            and NIIF requirements:</p>
+                        <div class="reveal" style="margin-top: var(--space-3xl);">
+                            <h2>How We Help</h2>
+                            <div class="gold-line"></div>
+                            <p>We provide hands-on technical accounting advisory across the full spectrum of US GAAP,
+                                IFRS,
+                                and NIIF requirements:</p>
 
-                        <h3 style="margin-top: var(--space-2xl); margin-bottom: var(--space-md);">US GAAP Advisory</h3>
-                        <ul class="deliverables">
-                            <li>ASC 606 Revenue Recognition analysis and implementation</li>
-                            <li>ASC 842 Lease Accounting transition and ongoing compliance</li>
-                            <li>ASC 805 Business Combinations and purchase price allocation</li>
-                            <li>ASC 810 Consolidation and variable interest entity assessment</li>
-                            <li>ASC 326 Current Expected Credit Losses (CECL)</li>
-                            <li>Fair value measurement and impairment testing</li>
-                        </ul>
+                            <h3 style="margin-top: var(--space-2xl); margin-bottom: var(--space-md);">US GAAP Advisory
+                            </h3>
+                            <ul class="deliverables">
+                                <li>ASC 606 Revenue Recognition analysis and implementation</li>
+                                <li>ASC 842 Lease Accounting transition and ongoing compliance</li>
+                                <li>ASC 805 Business Combinations and purchase price allocation</li>
+                                <li>ASC 810 Consolidation and variable interest entity assessment</li>
+                                <li>ASC 326 Current Expected Credit Losses (CECL)</li>
+                                <li>Fair value measurement and impairment testing</li>
+                            </ul>
 
-                        <h3 style="margin-top: var(--space-2xl); margin-bottom: var(--space-md);">IFRS &amp; NIIF
-                            Advisory</h3>
-                        <ul class="deliverables">
-                            <li>IFRS 15 / NIIF 15 Revenue from Contracts with Customers</li>
-                            <li>IFRS 16 / NIIF 16 Leases</li>
-                            <li>IFRS 9 / NIIF 9 Financial Instruments</li>
-                            <li>IFRS 3 / NIIF 3 Business Combinations</li>
-                            <li>IFRS 10 / NIIF 10 Consolidated Financial Statements</li>
-                            <li>First-time IFRS/NIIF adoption (IFRS 1)</li>
-                            <li>Colombia-specific NIIF implementation and regulatory requirements</li>
-                        </ul>
+                            <h3 style="margin-top: var(--space-2xl); margin-bottom: var(--space-md);">IFRS &amp; NIIF
+                                Advisory</h3>
+                            <ul class="deliverables">
+                                <li>IFRS 15 / NIIF 15 Revenue from Contracts with Customers</li>
+                                <li>IFRS 16 / NIIF 16 Leases</li>
+                                <li>IFRS 9 / NIIF 9 Financial Instruments</li>
+                                <li>IFRS 3 / NIIF 3 Business Combinations</li>
+                                <li>IFRS 10 / NIIF 10 Consolidated Financial Statements</li>
+                                <li>First-time IFRS/NIIF adoption (IFRS 1)</li>
+                                <li>Colombia-specific NIIF implementation and regulatory requirements</li>
+                            </ul>
 
-                        <h3 style="margin-top: var(--space-2xl); margin-bottom: var(--space-md);">Cross-Border Advisory
-                        </h3>
-                        <ul class="deliverables">
-                            <li>US GAAP to IFRS/NIIF conversion and reconciliation</li>
-                            <li>Dual-framework financial reporting for multinational groups</li>
-                            <li>Intercompany transaction alignment across jurisdictions</li>
-                            <li>Foreign currency translation and remeasurement</li>
-                            <li>Transfer pricing accounting implications</li>
-                        </ul>
-                    </div>
+                            <h3 style="margin-top: var(--space-2xl); margin-bottom: var(--space-md);">Cross-Border
+                                Advisory
+                            </h3>
+                            <ul class="deliverables">
+                                <li>US GAAP to IFRS/NIIF conversion and reconciliation</li>
+                                <li>Dual-framework financial reporting for multinational groups</li>
+                                <li>Intercompany transaction alignment across jurisdictions</li>
+                                <li>Foreign currency translation and remeasurement</li>
+                                <li>Transfer pricing accounting implications</li>
+                            </ul>
+                        </div>
 
-                    <div class="reveal" style="margin-top: var(--space-3xl);">
-                        <h2>Who This Is For</h2>
-                        <div class="gold-line"></div>
-                        <ul class="deliverables">
-                            <li>CFOs and controllers needing a technical sounding board</li>
-                            <li>Companies entering or expanding in the US, Colombia, or Latin American markets</li>
-                            <li>Organizations adopting new accounting standards for the first time</li>
-                            <li>Multinational groups requiring consistent accounting across subsidiaries</li>
-                            <li>Companies involved in M&A transactions with complex accounting implications</li>
-                            <li>Firms navigating first-time NIIF adoption in Colombia</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="service-detail__sidebar reveal">
-                    <h3>All Services</h3>
-                    <ul>
-                        <li><a href="audit-readiness.html">Audit Readiness Reviews & Mock Audits</a></li>
-                        <li><a href="financial-diagnostics.html">Financial Statement Diagnostics</a></li>
-                        <li><a href="gaap-ifrs-advisory.html" class="active">GAAP, IFRS & NIIF Advisory</a></li>
-                        <li><a href="internal-controls.html">Internal Controls & Financial Reporting</a></li>
-                    </ul>
-                    <div
-                        style="margin-top: var(--space-2xl); padding-top: var(--space-2xl); border-top: 1px solid var(--gray-200);">
-                        <h3>Frameworks We Cover</h3>
-                        <div style="margin-top: var(--space-md);">
-                            <div class="industry-tag" style="margin-bottom: var(--space-sm); display: inline-block;">US
-                                GAAP</div>
-                            <div class="industry-tag" style="margin-bottom: var(--space-sm); display: inline-block;">
-                                IFRS</div>
-                            <div class="industry-tag" style="margin-bottom: var(--space-sm); display: inline-block;">
-                                NIIF Colombia</div>
+                        <div class="reveal" style="margin-top: var(--space-3xl);">
+                            <h2>Who This Is For</h2>
+                            <div class="gold-line"></div>
+                            <ul class="deliverables">
+                                <li>CFOs and controllers needing a technical sounding board</li>
+                                <li>Companies entering or expanding in the US, Colombia, or Latin American markets</li>
+                                <li>Organizations adopting new accounting standards for the first time</li>
+                                <li>Multinational groups requiring consistent accounting across subsidiaries</li>
+                                <li>Companies involved in M&A transactions with complex accounting implications</li>
+                                <li>Firms navigating first-time NIIF adoption in Colombia</li>
+                            </ul>
                         </div>
                     </div>
-                    <div
-                        style="margin-top: var(--space-2xl); padding-top: var(--space-2xl); border-top: 1px solid var(--gray-200);">
-                        <h3>Need Guidance?</h3>
-                        <p style="font-size: 0.9rem; color: var(--text-secondary); margin: var(--space-md) 0;">
-                            Discuss a complex accounting question with our technical team.
-                        </p>
-                        <a href="../contact.html" class="btn btn--primary"
-                            style="width: 100%; justify-content: center;">Book a Consultation</a>
+
+                    <div class="service-detail__sidebar reveal">
+                        <h3>All Services</h3>
+                        <ul>
+                            <li><a href="audit-readiness.html">Audit Readiness Reviews & Mock Audits</a></li>
+                            <li><a href="financial-diagnostics.html">Financial Statement Diagnostics</a></li>
+                            <li><a href="gaap-ifrs-advisory.html" class="active">GAAP, IFRS & NIIF Advisory</a></li>
+                            <li><a href="internal-controls.html">Internal Controls & Financial Reporting</a></li>
+                        </ul>
+                        <div
+                            style="margin-top: var(--space-2xl); padding-top: var(--space-2xl); border-top: 1px solid var(--gray-200);">
+                            <h3>Frameworks We Cover</h3>
+                            <div style="margin-top: var(--space-md);">
+                                <div class="industry-tag"
+                                    style="margin-bottom: var(--space-sm); display: inline-block;">US
+                                    GAAP</div>
+                                <div class="industry-tag"
+                                    style="margin-bottom: var(--space-sm); display: inline-block;">
+                                    IFRS</div>
+                                <div class="industry-tag"
+                                    style="margin-bottom: var(--space-sm); display: inline-block;">
+                                    NIIF Colombia</div>
+                            </div>
+                        </div>
+                        <div
+                            style="margin-top: var(--space-2xl); padding-top: var(--space-2xl); border-top: 1px solid var(--gray-200);">
+                            <h3>Need Guidance?</h3>
+                            <p style="font-size: 0.9rem; color: var(--text-secondary); margin: var(--space-md) 0;">
+                                Discuss a complex accounting question with our technical team.
+                            </p>
+                            <a href="../contact.html" class="btn btn--primary"
+                                style="width: 100%; justify-content: center;">Book a Consultation</a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="section">
-        <div class="container">
-            <div class="cta-banner reveal">
-                <h2>Complex Accounting Shouldn't Mean Uncertain Reporting</h2>
-                <p>Our technical advisory team brings the expertise to get your accounting right the first time — across
-                    any framework.</p>
-                <a href="../contact.html" class="btn btn--primary">Get Technical Guidance <span
-                        class="btn__arrow">→</span></a>
+        <section class="section">
+            <div class="container">
+                <div class="cta-banner reveal">
+                    <h2>Complex Accounting Shouldn't Mean Uncertain Reporting</h2>
+                    <p>Our technical advisory team brings the expertise to get your accounting right the first time —
+                        across
+                        any framework.</p>
+                    <a href="../contact.html" class="btn btn--primary">Get Technical Guidance <span
+                            class="btn__arrow">→</span></a>
+                </div>
             </div>
-        </div>
-    </section>
-  </main>
+        </section>
+    </main>
 
     <footer class="footer">
         <div class="container">
             <div class="footer__grid">
                 <div class="footer__brand">
                     <a href="../index.html" class="nav__logo" style="margin-bottom: var(--space-md);">
-                        <img src="../images/logo.svg" alt="Audit Readiness Advisors" class="nav__logo-img" width="120" height="36" >
+                        <img src="../images/logo.svg" alt="Audit Readiness Advisors" class="nav__logo-img" width="120"
+                            height="36">
                     </a>
                     <p>Big Four grade audit readiness, mock audit, and technical accounting advisory.</p>
                 </div>

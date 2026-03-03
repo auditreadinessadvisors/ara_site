@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" as="style"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Audit Readiness Assessment | Audit Readiness Advisors</title>
+    <meta name="description"
+        content="Evaluate your company's audit preparedness in 5 minutes. Our free assessment identifies gaps in financial reporting, internal controls, and compliance with US GAAP, IFRS, and NIIF.">
+    <meta name="keywords"
+        content="audit readiness assessment, audit preparedness quiz, finance audit evaluation, audit risk assessment, free audit checklist">
+    <link rel="canonical" href="https://auditreadinessadvisors.com/assessment.html">
+    <link rel="alternate" hreflang="en" href="https://auditreadinessadvisors.com/assessment.html">
+    <link rel="alternate" hreflang="es" href="https://auditreadinessadvisors.com/es/evaluacion.html">
+
+    <meta property="og:title" content="Audit Readiness Assessment | How Prepared Is Your Company?">
+    <meta property="og:description"
+        content="Take our free 5-minute assessment to identify gaps in your audit readiness. Get a personalized score and actionable recommendations.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://auditreadinessadvisors.com/images/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:url" content="https://auditreadinessadvisors.com/assessment.html">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Audit Readiness Assessment | How Prepared Is Your Company?">
+    <meta name="twitter:description"
+        content="Take our free 5-minute assessment to identify gaps in your audit readiness.">
+    <meta name="twitter:image" content="https://auditreadinessadvisors.com/images/og-image.png">
+
+    <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Audit Readiness Assessment",
+    "description": "A 10-question self-assessment to evaluate your organization's preparedness for a financial audit across 5 critical dimensions.",
+    "provider": {
+      "@type": "Organization",
+      "name": "Audit Readiness Advisors",
+      "url": "https://auditreadinessadvisors.com"
+    },
+    "about": { "@type": "Thing", "name": "Financial Audit Readiness" },
+    "educationalLevel": "Professional",
+    "numberOfQuestions": 10,
+    "timeRequired": "PT3M"
+  }
+  </script>
+
+    <style>
+        :root {
+            --navy: #0B1D3A;
+            --navy-light: #132B52;
+            --navy-dark: #070F1E;
+            --gold: #C9A84C;
+            --gold-light: #D4BA6A;
+            --gold-dark: #A68B3C;
+            --white: #FFFFFF;
+            --off-white: #F7F8FA;
+            --gray-100: #EEF0F4;
+            --gray-300: #B0B7C5;
+            --text-primary: #1A1F2E;
+            --text-secondary: #5A6374;
+            --font-heading: 'Playfair Display', Georgia, serif;
+            --font-body: 'Inter', sans-serif;
+            --space-md: 1rem;
+            --space-lg: 1.5rem;
+            --space-xl: 2rem;
+            --space-2xl: 3rem;
+            --space-3xl: 4rem;
+            --space-4xl: 6rem;
+            --space-5xl: 8rem;
+            --transition-base: 250ms ease;
+            --radius-sm: 4px;
+            --max-width: 1200px;
+        }
+
+        *,
+        *::before,
+        *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            font-size: 16px;
+        }
+
+        body {
+            font-family: var(--font-body);
+            color: var(--text-primary);
+            background-color: var(--white);
+            line-height: 1.7;
+            overflow-x: hidden;
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-family: var(--font-heading);
+            font-weight: 700;
+            color: var(--navy);
+        }
+
+        .container {
+            width: 100%;
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 var(--space-xl);
+        }
+
+        .nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            background: rgba(11, 29, 58, 0.95);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(201, 168, 76, 0.15);
+        }
+
+        .nav__inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 72px;
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 var(--space-xl);
+        }
+
+        .nav__logo-img {
+            height: 36px;
+            width: auto;
+            display: block;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            padding: 12px 28px;
+            font-weight: 600;
+            border-radius: var(--radius-sm);
+            transition: all 0.25s;
+        }
+
+        .btn--primary {
+            background: var(--gold);
+            color: var(--navy);
+        }
+    </style>
+
+    <link rel="stylesheet" href="css/style.css" media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet" href="css/style.css">
+    </noscript>
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="nav" id="main-nav">
+        <div class="nav__inner">
+            <a href="index.html" class="nav__logo">
+                <img src="images/logo.svg" alt="Audit Readiness Advisors" class="nav__logo-img" width="120" height="36">
+            </a>
+            <div class="nav__links" id="nav-links">
+                <a href="index.html" class="nav__link">Home</a>
+                <a href="services/audit-readiness.html" class="nav__link">Services</a>
+                <a href="about.html" class="nav__link">About</a>
+                <a href="faq.html" class="nav__link">FAQ</a>
+                <a href="contact.html" class="nav__link">Contact</a>
+            </div>
+            <div class="nav__actions">
+                <button class="nav__lang" onclick="switchLanguage('es')" aria-label="Switch to Spanish">ES</button>
+                <a href="assessment.html" class="nav__cta">Free Assessment</a>
+            </div>
+            <button class="nav__toggle" id="nav-toggle" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <main id="main-content">
+        <div class="assessment" id="assessment">
+
+            <!-- ========== INTRO ========== -->
+            <section class="assessment__intro" id="assessment-intro">
+                <div class="container">
+                    <div class="assessment__intro-content">
+                        <span class="section-label">Free 3-Minute Assessment</span>
+                        <h1>How Audit-Ready Is Your Organization?</h1>
+                        <p class="assessment__intro-subtitle">
+                            10 questions designed by former Big Four auditors to reveal exactly where your organization
+                            is strong — and where auditors will find gaps. Most finance leaders are surprised by their
+                            results.
+                        </p>
+                        <div class="assessment__intro-features">
+                            <div class="assessment__intro-feature">
+                                <span class="assessment__intro-feature-icon">⏱</span>
+                                <span>3 minutes</span>
+                            </div>
+                            <div class="assessment__intro-feature">
+                                <span class="assessment__intro-feature-icon">📊</span>
+                                <span>Instant score</span>
+                            </div>
+                            <div class="assessment__intro-feature">
+                                <span class="assessment__intro-feature-icon">🎯</span>
+                                <span>Personalized insights</span>
+                            </div>
+                            <div class="assessment__intro-feature">
+                                <span class="assessment__intro-feature-icon">🔒</span>
+                                <span>100% confidential</span>
+                            </div>
+                        </div>
+                        <button class="btn btn--primary btn--lg" id="start-assessment">
+                            Start Your Assessment <span class="btn__arrow">→</span>
+                        </button>
+                        <p class="assessment__intro-note">No credit card required</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ========== PROGRESS BAR ========== -->
+            <div class="assessment__progress-wrap" id="assessment-progress" style="display:none;">
+                <div class="container">
+                    <div class="assessment__progress-bar">
+                        <div class="assessment__progress-fill" id="progress-fill"></div>
+                    </div>
+                    <div class="assessment__progress-labels">
+                        <span id="progress-section">Question 1 of 10</span>
+                        <span id="progress-percent">0%</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ========== QUESTIONS (one per screen for conversion) ========== -->
+
+            <!-- Q1 -->
+            <section class="assessment__step" id="step-1" style="display:none;"
+                data-section="Financial Statement Integrity">
+                <div class="container container--narrow">
+                    <div class="assessment__q-header">
+                        <span class="assessment__q-category">Financial Statement Integrity</span>
+                        <h2 class="assessment__q-text">How confident are you that your financial statements are free of
+                            material misstatements?</h2>
+                    </div>
+                    <div class="assessment__options" data-question="1">
+                        <button class="assessment__option" data-value="1">
+                            <span class="assessment__option-value">1</span>
+                            <div class="assessment__option-content">
+                                <span class="assessment__option-label">Not confident at all</span>
+                                <span class="assessment__option-desc">We haven't had a thorough review</span>
+                            </div>
+                        </button>
+                        <button class="assessment__option" data-value="2">
+                            <span class="assessment__option-value">2</span>
+                            <div class="assessment__option-content">
+                                <span class="assessment__option-label">Somewhat uncertain</span>
+                                <span class="assessment__option-desc">We know there may be issues</span>
+                            </div>
+                        </button>
+                        <button class="assessment__option" data-value="3">
+                            <span class="assessment__option-value">3</span>
+                            <div class="assessment__option-content">
+                                <span class="assessment__option-label">Fairly confident</span>
+                                <span class="assessment__option-desc">Most areas are solid, some unknowns</span>
+                            </div>
+                        </button>
+                        <button class="assessment__option" data-value="4">
+                            <span class="assessment__option-value">4</span>
+                            <div class="assessment__option-content">
+                                <span class="assessment__option-label">Very confident</span>
+                                <span class="assessment__option-desc">Internally reviewed and validated</span>
+                            </div>
+                        </button>
+                        <button class="assessment__option" data-value="5">
+                            <span class="assessment__option-value">5</span>
+                            <div class="assessment__option-content">
+                                <span class="assessment__option-label">Fully confident</span>
+                                <span class="assessment__option-desc">Independently verified, no material
+                                    findings</span>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Q2 -->
+            <section class="assessment__step" id="step-2" style="display:none;"
+                data-section="Financial Statement Integrity">
+                <div class="container container--narrow">
+                    <div class="assessment__q-header">
+                        <span class="assessment__q-category">Financial Statement Integrity</span>
+                        <h2 class="assessment__q-text">Are journal entries supported by adequate documentation and dual
+                            approval?</h2>
+                    </div>
+                    <div class="assessment__options" data-question="2">
+                        <button class="assessment__option" data-value="1">
+                            <span class="assessment__option-value">1</span>
+                            <div class="assessment__option-content">
+                                <span class="assessment__option-label">Minimal documentation</span>
+                                <span class="assessment__option-desc">Entries are posted with little backup</span>
+                            </div>
+                        </button>
+                        <button class="assessment__option" data-value="2">
+                            <span class="assessment__option-value">2</span>
+                            <div class="assessment__option-content">
+                                <span class="assessment__option-label">Some documentation, no formal approval</span>
+                                <span class="assessment__option-desc">Backup exists but no sign-off process</span>
+                            </div>
+                        </button>
+                        <button class="assessment__option" data-value="3">
+                            <span class="assessment__option-value">3</span>
+                            <div class="assessment__option-content">
+                                <span class="assessment__option-label">Documented with informal approval</span>
+                                <span class="assessment__option-desc">Generally good, not always consistent</span>
+                            </div>
+                        </button>
+                        <button class="assessment__option" data-value="4">
+                            <span class="assessment__option-value">4</span>
+                            <div class="assessment__option-content">
+                                <span class="assessment__option-label">Well-documented with single approval</span>
+                                <span class="assessment__option-desc">Strong process, one review layer</span>
+                            </div>
+                        </button>
+                        <button class="assessment__option" data-value="5">
+                            <span class="assessment__option-value">5</span>
+                            <div class="assessment__option-content">
+                                <span class="assessment__option-label">Fully documented with dual approval</span>
+                                <span class="assessment__option-desc">Audit-grade documentation and controls</span>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Q3 -->
+            <section class="assessment__step" id="step-3" style="display:none;"
+                data-section="Accounting Standards Compliance">
+                <div class="container container--narrow">
+                    <div class="assessment__q-header">
+                        <span class="assessment__q-category">Accounting Standards Compliance</span>
+                        <h2 class="assessment__q-text">Is your revenue recognition policy documented and consistently
+                            applied?</h2>
+                    </div>
+                    <div class="assessment__options" data-question="3">
+                        <button class="assessment__option" data-value="1">
+                            <span class="assessment__option-value">1</span>
+                            <div class="assessment__option-content">
+                                <span class="assessment__option-label">Not documented</span>
+                                <span class="assessment__option-desc">No written policy exists</span>
+                            </div>
+                        </button>
+                        <button class="assessment__option" data-value="2">
+                            <span class="assessment__option-value">2</span>
+                            <div class="assessment__option-content">
+                                <span class="assessment__option-label">Informal guidelines only</span>
+                                <span class="assessment__option-desc">Verbal understanding, nothing formal</span>
+                            </div>
+                        </button>
+                        <button class="assessment__option" data-value="3">
+                            <span class="assessment__option-value">3</span>
+                            <div class="assessment__option-content">
+                                <span class="assessment__option-label">Documented but inconsistently applied</span>
+                                <span class="assessment__option-desc">Policy exists but gaps in execution</span>
+                            </div>
+                        </button>
+                        <button class="assessment__option" data-value="4">
+                            <span class="assessment__option-value">4</span>
+                            <div class="assessment__option-content">
+                                <span class="assessment__option-label">Documented and generally applied</span>
+                                <span class="assessment__option-desc">Solid foundation with minor exceptions</span>
+                            </div>
+                        </button>
+                        <button class="assessment__option" data-value="5">
+                            <span class="assessment__option-value">5</span>
+                            <div class="assessment__option-content">
+                                <span class="assessment__option-label">Fully documented, tested, and consistent</span>
+                                <span class="assessment__option-desc">Aligned with ASC 606 / IFRS 15</span>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Q4 -->
+            <section class="assessment__step" id="step-4" style="display:none;"
+                data-section="Accounting Standards Compliance">
+                <div class="container container--narrow">
+                    <div class="assessment__q-header">
+                        <span class="assessment__q-category">Accounting Standards Compliance</span>
+                        <h2 class="assessment__q-text">Do you have technical accounting memos documenting significant
+                            judgments and estimates?</h2>
+                    </div>
+                    <div class="assessment__options" data-question="4">
+                        <button class="assessment__option" data-value="1">
+                            <span class="assessment__option-value">1</span>
+                            <div class="assessment__option-content">
+                                <span class="assessment__option-label">None</span>
+                                <span class="assessment__option-desc">No written memos for any area</span>
+                            </div>
+                        </button>
+                        <button class="assessment__option" data-value="2">
+                            <span class="assessment__option-value">2</span>
+                            <div class="assessment__option-content">
+                                <span class="assessment__option-label">Only for a few areas</span>
+                                <span class="assessment__option-desc">Ad hoc documentation, major gaps</span>
+                            </div>
+                        </button>
+                        <button class="assessment__option" data-value="3">
+                            <span class="assessment__option-value">3</span>
+                            <div class="assessment__option-content">
+                                <span class="assessment__option-label">For some material areas</span>
+                                <span class="assessment__option-desc">Covered in part, not comprehensive</span>
+                            </div>
+                        </button>
+                        <button class="assessment__option" data-value="4">
+                            <span class="assessment__option-value">4</span>
+                            <div class="assessment__option-content">
+                                <span class="assessment__option-label">For most material areas</span>
+                                <span class="assessment__option-desc">Good coverage, minor gaps remain</span>
+                            </div>
+                        </button>
+                        <button class="assessment__option" data-value="5">
+                            <span class="assessment__option-value">5</span>
+                            <div class="assessment__option-content">
+                                <span class="assessment__option-label">Yes, for all material areas</span>
+                                <span class="assessment__option-desc">Comprehensive memos updated annually</span>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Q5 -->
+            <section class="assessment__step" id="step-5" style="display:none;" data-section="Internal Controls">
+                <div class="container container--narrow">
+                    <div class="assessment__q-header">
+                        <span class="assessment__q-category">Internal Controls Environment</span>
+                        <h2 class="assessment__q-text">Is there segregation of duties in your financial processes?</h2>
+                    </div>
+                    <div class="assessment__options" data-question="5">
+                        <button class="assessment__option" data-value="1">
+                            <span class="assessment__option-value">1</span>
+                            <div class="assessment__option-content">
+                                <span class="assessment__option-label">One person handles most tasks</span>
+                                <span class="assessment__option-desc">Little to no separation of responsibilities</span>
+                            </div>
+                        </button>
+                        <button class="assessment__option" data-value="2">
+                            <span class="assessment__option-value">2</span>
+                            <div class="assessment__option-content">
+                                <span class="assessment__option-label">Limited separation</span>
+                                <span class="assessment__option-desc">Some division but critical overlaps</span>
+                            </div>
+                        </button>
+                        <button class="assessment__option" data-value="3">
+                            <span class="assessment__option-value">3</span>
+                            <div class="assessment__option-content">
+                                <span class="assessment__option-label">Some segregation in key areas</span>
+                                <span class="assessment__option-desc">Cash and payroll separated, other gaps</span>
+                            </div>
+                        </button>
+                        <button class="assessment__option" data-value="4">
+                            <span class="assessment__option-value">4</span>
+                            <div class="assessment__option-content">
+                                <span class="assessment__option-label">Good segregation with minor gaps</span>
+                                <span class="assessment__option-desc">Well-structured with compensating controls needed
+                                    in some areas</span>
+                            </div>
+                        </button>
+                        <button class="assessment__option" data-value="5">
+                            <span class="assessment__option-value">5</span>
+                            <div class="assessment__option-content">
+                                <span class="assessment__option-label">Full segregation with compensating
+                                    controls</span>
+                                <span class="assessment__option-desc">Complete separation with documented
+                                    mitigants</span>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Q6 -->
+            <section class="assessment__step" id="step-6" style="display:none;" data-section="Internal Controls">
+                <div class="container container--narrow">
+                    <div class="assessment__q-header">
+                        <span class="assessment__q-category">Internal Controls Environment</span>
+                        <h2 class="assessment__q-text">Do you perform regular access reviews for financial systems?</h2>
+                    </div>
+                    <div class="assessment__options" data-question="6">
+                        <button class="assessment__option" data-value="1">
+                            <span class="assessment__option-value">1</span>
+                            <div class="assessment__option-content">
+                                <span class="assessment__option-label">Never</span>
+                                <span class="assessment__option-desc">No formal reviews of system access</span>
+                            </div>
+                        </button>
+                        <button class="assessment__option" data-value="2">
+                            <span class="assessment__option-value">2</span>
+                            <div class="assessment__option-content">
+                                <span class="assessment__option-label">Only when issues arise</span>
+                                <span class="assessment__option-desc">Reactive, not preventive</span>
+                            </div>
+                        </button>
+                        <button class="assessment__option" data-value="3">
+                            <span class="assessment__option-value">3</span>
+                            <div class="assessment__option-content">
+                                <span class="assessment__option-label">Annually</span>
+                                <span class="assessment__option-desc">Once a year, basic review</span>
+                            </div>
+                        </button>
+                        <button class="assessment__option" data-value="4">
+                            <span class="assessment__option-value">4</span>
+                            <div class="assessment__option-content">
+                                <span class="assessment__option-label">Semi-annually with documentation</span>
+                                <span class="assessment__option-desc">Regular reviews with evidence trail</span>
+                            </div>
+                        </button>
+                        <button class="assessment__option" data-value="5">
+                            <span class="assessment__option-value">5</span>
+                            <div class="assessment__option-content">
+                                <span class="assessment__option-label">Quarterly with documented results</span>
+                                <span class="assessment__option-desc">Robust ITGC program with management
+                                    oversight</span>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Q7 -->
+            <section class="assessment__step" id="step-7" style="display:none;" data-section="Audit Preparedness">
+                <div class="container container--narrow">
+                    <div class="assessment__q-header">
+                        <span class="assessment__q-category">Audit Preparedness</span>
+                        <h2 class="assessment__q-text">Do you have a complete set of supporting schedules ready for key
+                            balance sheet accounts?</h2>
+                    </div>
+                    <div class="assessment__options" data-question="7">
+                        <button class="assessment__option" data-value="1">
+                            <span class="assessment__option-value">1</span>
+                            <div class="assessment__option-content">
+                                <span class="assessment__option-label">None prepared</span>
+                                <span class="assessment__option-desc">We would start from scratch</span>
+                            </div>
+                        </button>
+                        <button class="assessment__option" data-value="2">
+                            <span class="assessment__option-value">2</span>
+                            <div class="assessment__option-content">
+                                <span class="assessment__option-label">A few key schedules</span>
+                                <span class="assessment__option-desc">Only cash and maybe AR</span>
+                            </div>
+                        </button>
+                        <button class="assessment__option" data-value="3">
+                            <span class="assessment__option-value">3</span>
+                            <div class="assessment__option-content">
+                                <span class="assessment__option-label">Most major accounts covered</span>
+                                <span class="assessment__option-desc">Decent coverage, some gaps</span>
+                            </div>
+                        </button>
+                        <button class="assessment__option" data-value="4">
+                            <span class="assessment__option-value">4</span>
+                            <div class="assessment__option-content">
+                                <span class="assessment__option-label">Comprehensive schedules, minor gaps</span>
+                                <span class="assessment__option-desc">Strong package that needs polish</span>
+                            </div>
+                        </button>
+                        <button class="assessment__option" data-value="5">
+                            <span class="assessment__option-value">5</span>
+                            <div class="assessment__option-content">
+                                <span class="assessment__option-label">All major accounts have supporting
+                                    schedules</span>
+                                <span class="assessment__option-desc">Ready to hand to auditors on day one</span>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Q8 -->
+            <section class="assessment__step" id="step-8" style="display:none;" data-section="Audit Preparedness">
+                <div class="container container--narrow">
+                    <div class="assessment__q-header">
+                        <span class="assessment__q-category">Audit Preparedness</span>
+                        <h2 class="assessment__q-text">Are related party transactions identified, documented, and
+                            disclosed?</h2>
+                    </div>
+                    <div class="assessment__options" data-question="8">
+                        <button class="assessment__option" data-value="1">
+                            <span class="assessment__option-value">1</span>
+                            <div class="assessment__option-content">
+                                <span class="assessment__option-label">Not tracked</span>
+                                <span class="assessment__option-desc">We haven't identified related parties</span>
+                            </div>
+                        </button>
+                        <button class="assessment__option" data-value="2">
+                            <span class="assessment__option-value">2</span>
+                            <div class="assessment__option-content">
+                                <span class="assessment__option-label">Informally tracked</span>
+                                <span class="assessment__option-desc">We know who they are but nothing formal</span>
+                            </div>
+                        </button>
+                        <button class="assessment__option" data-value="3">
+                            <span class="assessment__option-value">3</span>
+                            <div class="assessment__option-content">
+                                <span class="assessment__option-label">Partially documented</span>
+                                <span class="assessment__option-desc">Some transactions recorded, not all
+                                    disclosed</span>
+                            </div>
+                        </button>
+                        <button class="assessment__option" data-value="4">
+                            <span class="assessment__option-value">4</span>
+                            <div class="assessment__option-content">
+                                <span class="assessment__option-label">Documented with some disclosure</span>
+                                <span class="assessment__option-desc">Good documentation, disclosure needs work</span>
+                            </div>
+                        </button>
+                        <button class="assessment__option" data-value="5">
+                            <span class="assessment__option-value">5</span>
+                            <div class="assessment__option-content">
+                                <span class="assessment__option-label">Fully documented with disclosure language</span>
+                                <span class="assessment__option-desc">Complete register with footnote-ready
+                                    disclosures</span>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Q9 -->
+            <section class="assessment__step" id="step-9" style="display:none;" data-section="Organizational Readiness">
+                <div class="container container--narrow">
+                    <div class="assessment__q-header">
+                        <span class="assessment__q-category">Organizational Readiness</span>
+                        <h2 class="assessment__q-text">Does your finance team have sufficient capacity to support an
+                            audit without disrupting operations?</h2>
+                    </div>
+                    <div class="assessment__options" data-question="9">
+                        <button class="assessment__option" data-value="1">
+                            <span class="assessment__option-value">1</span>
+                            <div class="assessment__option-content">
+                                <span class="assessment__option-label">No, it would overwhelm us</span>
+                                <span class="assessment__option-desc">We barely keep up with day-to-day</span>
+                            </div>
+                        </button>
+                        <button class="assessment__option" data-value="2">
+                            <span class="assessment__option-value">2</span>
+                            <div class="assessment__option-content">
+                                <span class="assessment__option-label">It would be very difficult</span>
+                                <span class="assessment__option-desc">Something else would have to give</span>
+                            </div>
+                        </button>
+                        <button class="assessment__option" data-value="3">
+                            <span class="assessment__option-value">3</span>
+                            <div class="assessment__option-content">
+                                <span class="assessment__option-label">Manageable with some strain</span>
+                                <span class="assessment__option-desc">Tight but doable with overtime</span>
+                            </div>
+                        </button>
+                        <button class="assessment__option" data-value="4">
+                            <span class="assessment__option-value">4</span>
+                            <div class="assessment__option-content">
+                                <span class="assessment__option-label">Adequate capacity with planning</span>
+                                <span class="assessment__option-desc">We can handle it with advance notice</span>
+                            </div>
+                        </button>
+                        <button class="assessment__option" data-value="5">
+                            <span class="assessment__option-value">5</span>
+                            <div class="assessment__option-content">
+                                <span class="assessment__option-label">Yes, dedicated audit support capacity</span>
+                                <span class="assessment__option-desc">Resources allocated and ready</span>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Q10 -->
+            <section class="assessment__step" id="step-10" style="display:none;"
+                data-section="Organizational Readiness">
+                <div class="container container--narrow">
+                    <div class="assessment__q-header">
+                        <span class="assessment__q-category">Organizational Readiness</span>
+                        <h2 class="assessment__q-text">Have you conducted a risk assessment identifying areas most
+                            likely to draw auditor scrutiny?</h2>
+                    </div>
+                    <div class="assessment__options" data-question="10">
+                        <button class="assessment__option" data-value="1">
+                            <span class="assessment__option-value">1</span>
+                            <div class="assessment__option-content">
+                                <span class="assessment__option-label">Never</span>
+                                <span class="assessment__option-desc">We haven't thought about this</span>
+                            </div>
+                        </button>
+                        <button class="assessment__option" data-value="2">
+                            <span class="assessment__option-value">2</span>
+                            <div class="assessment__option-content">
+                                <span class="assessment__option-label">Informally considered</span>
+                                <span class="assessment__option-desc">We have a general sense but nothing formal</span>
+                            </div>
+                        </button>
+                        <button class="assessment__option" data-value="3">
+                            <span class="assessment__option-value">3</span>
+                            <div class="assessment__option-content">
+                                <span class="assessment__option-label">Some assessment done</span>
+                                <span class="assessment__option-desc">Identified a few key risk areas</span>
+                            </div>
+                        </button>
+                        <button class="assessment__option" data-value="4">
+                            <span class="assessment__option-value">4</span>
+                            <div class="assessment__option-content">
+                                <span class="assessment__option-label">Documented, reviewed periodically</span>
+                                <span class="assessment__option-desc">Formal process with management involvement</span>
+                            </div>
+                        </button>
+                        <button class="assessment__option" data-value="5">
+                            <span class="assessment__option-value">5</span>
+                            <div class="assessment__option-content">
+                                <span class="assessment__option-label">Yes, updated annually</span>
+                                <span class="assessment__option-desc">Integrated into our governance framework</span>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ========== LEAD CAPTURE GATE ========== -->
+            <section class="assessment__gate" id="assessment-gate" style="display:none;">
+                <div class="container container--narrow">
+                    <div class="assessment__gate-content">
+                        <div class="assessment__gate-icon">📊</div>
+                        <h2>Your Audit Readiness Report Is Ready</h2>
+                        <p>Enter your details below to unlock your personalized score, radar chart breakdown, and
+                            section-by-section recommendations designed by our Big Four alumni advisory team.</p>
+                        <form class="assessment__gate-form" id="gate-form">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="gate-name">Full Name *</label>
+                                    <input type="text" id="gate-name" name="full_name" required
+                                        placeholder="Jane Smith">
+                                </div>
+                                <div class="form-group">
+                                    <label for="gate-company">Company Name *</label>
+                                    <input type="text" id="gate-company" name="company" required
+                                        placeholder="Acme Corporation">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="gate-email">Business Email *</label>
+                                    <input type="email" id="gate-email" name="email" required
+                                        placeholder="jane@company.com">
+                                </div>
+                                <div class="form-group">
+                                    <label for="gate-role">Title / Role</label>
+                                    <select id="gate-role" name="role">
+                                        <option value="">Select your role</option>
+                                        <option value="cfo">CFO / VP Finance</option>
+                                        <option value="controller">Controller</option>
+                                        <option value="director">Director of Accounting</option>
+                                        <option value="ceo">CEO / Founder</option>
+                                        <option value="coo">COO</option>
+                                        <option value="pe">PE / VC Partner</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="gate-framework">Accounting framework</label>
+                                <select id="gate-framework" name="framework">
+                                    <option value="">Which framework applies?</option>
+                                    <option value="us-gaap">US GAAP</option>
+                                    <option value="ifrs">IFRS</option>
+                                    <option value="niif">NIIF</option>
+                                    <option value="multiple">Multiple frameworks</option>
+                                    <option value="not-sure">Not Sure</option>
+                                </select>
+                            </div>
+                            <input type="hidden" id="gate-score" name="total_score">
+                            <input type="hidden" id="gate-tier" name="tier">
+                            <input type="hidden" id="gate-section-scores" name="section_scores">
+                            <input type="hidden" id="gate-answers" name="answers">
+
+                            <button type="submit" class="btn btn--primary btn--lg" style="width:100%;">
+                                View My Results <span class="btn__arrow">→</span>
+                            </button>
+                            <p class="assessment__gate-privacy">🔒 Your data is confidential. We will never share it
+                                with third parties.</p>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ========== RESULTS ========== -->
+            <section class="assessment__results" id="assessment-results" style="display:none;">
+                <div class="container">
+
+                    <div class="results__hero">
+                        <span class="section-label">Your Audit Readiness Score</span>
+                        <div class="results__score-wrap">
+                            <div class="results__score-circle" id="score-circle">
+                                <svg viewBox="0 0 200 200">
+                                    <circle cx="100" cy="100" r="88" fill="none" stroke="var(--gray-100)"
+                                        stroke-width="8" />
+                                    <circle cx="100" cy="100" r="88" fill="none" stroke-width="8" stroke-linecap="round"
+                                        id="score-ring" class="results__score-ring" stroke-dasharray="553"
+                                        stroke-dashoffset="553" transform="rotate(-90 100 100)" />
+                                </svg>
+                                <div class="results__score-number" id="score-number">0</div>
+                                <div class="results__score-total">/ 50</div>
+                            </div>
+                        </div>
+                        <div class="results__tier" id="results-tier"></div>
+                        <p class="results__tier-desc" id="results-tier-desc"></p>
+                    </div>
+
+                    <div class="results__grid">
+                        <div class="results__chart-wrap">
+                            <h3>Your Risk Profile</h3>
+                            <canvas id="radar-chart" width="400" height="400"></canvas>
+                        </div>
+                        <div class="results__breakdown" id="results-breakdown"></div>
+                    </div>
+
+                    <div class="results__cta" id="results-cta"></div>
+
+                    <div class="results__share">
+                        <p>Found this valuable?</p>
+                        <a href="#" id="share-linkedin" class="btn btn--outline btn--sm" target="_blank"
+                            rel="noopener">Share on LinkedIn</a>
+                    </div>
+
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__brand">
+                    <a href="index.html" class="nav__logo" style="margin-bottom: var(--space-md);">
+                        <img src="images/logo.svg" alt="Audit Readiness Advisors" class="nav__logo-img" width="120"
+                            height="36">
+                    </a>
+                    <p>Big Four grade audit readiness, mock audit, and technical accounting advisory. Serving companies
+                        across the United States, Colombia, Argentina, and Latin America.</p>
+                </div>
+                <div>
+                    <h3 class="footer__heading">Services</h3>
+                    <ul class="footer__links">
+                        <li><a href="services/audit-readiness.html">Audit Readiness Reviews</a></li>
+                        <li><a href="services/financial-diagnostics.html">Financial Diagnostics</a></li>
+                        <li><a href="services/gaap-ifrs-advisory.html">GAAP/IFRS/NIIF Advisory</a></li>
+                        <li><a href="services/internal-controls.html">Internal Controls</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="footer__heading">Company</h3>
+                    <ul class="footer__links">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="assessment.html">Free Assessment</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="footer__heading">Languages</h3>
+                    <ul class="footer__links">
+                        <li><a href="index.html">English</a></li>
+                        <li><a href="es/index.html">Español</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2026 Audit Readiness Advisors. All rights reserved.</p>
+                <div class="footer__legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+    <script src="js/main.js" defer></script>
+    <script src="js/assessment.js" defer></script>
+</body>
+
+</html>

@@ -3,11 +3,13 @@
 
 <head>
     <meta charset="UTF-8">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" as="style"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us — Big Four Grade Audit Advisory | Audit Readiness Advisors</title>
     <meta name="description"
         content="Audit Readiness Advisors combines Big Four experience with advisory firm agility. Cross-border expertise in the US, Colombia, Argentina, and Latin America.">
@@ -21,30 +23,138 @@
     <meta property="og:description"
         content="Big Four grade advisory. Cross-border expertise across the US, Colombia, Argentina, and Latin America.">
     <meta property="og:type" content="website">
-  <meta property="og:image" content="https://auditreadinessadvisors.com/images/og-image.png">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
+    <meta property="og:image" content="https://auditreadinessadvisors.com/images/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
 
-      <style>
-/* Critical CSS for Ara Site */
-:root { --navy: #0B1D3A; --navy-light: #132B52; --navy-dark: #070F1E; --gold: #C9A84C; --gold-light: #D4BA6A; --gold-dark: #A68B3C; --white: #FFFFFF; --off-white: #F7F8FA; --gray-100: #EEF0F4; --gray-300: #B0B7C5; --text-primary: #1A1F2E; --text-secondary: #5A6374; --font-heading: 'Playfair Display', Georgia, serif; --font-body: 'Inter', sans-serif; --space-md: 1rem; --space-lg: 1.5rem; --space-xl: 2rem; --space-2xl: 3rem; --space-3xl: 4rem; --space-4xl: 6rem; --space-5xl: 8rem; --transition-base: 250ms ease; --radius-sm: 4px; --max-width: 1200px; }
-*,*::before,*::after { margin: 0; padding: 0; box-sizing: border-box; }
-html { scroll-behavior: smooth; font-size: 16px; }
-body { font-family: var(--font-body); color: var(--text-primary); background-color: var(--white); line-height: 1.7; overflow-x: hidden; }
-h1,h2,h3 { font-family: var(--font-heading); font-weight: 700; color: var(--navy); }
-.container { width: 100%; max-width: var(--max-width); margin: 0 auto; padding: 0 var(--space-xl); }
-.nav { position: fixed; top: 0; left: 0; right: 0; z-index: 1000; background: rgba(11, 29, 58, 0.95); backdrop-filter: blur(12px); border-bottom: 1px solid rgba(201, 168, 76, 0.15); }
-.nav__inner { display: flex; align-items: center; justify-content: space-between; height: 72px; max-width: var(--max-width); margin: 0 auto; padding: 0 var(--space-xl); }
-.nav__logo-img { height: 36px; width: auto; display: block; }
-.hero { position: relative; min-height: 100vh; display: flex; align-items: center; background: linear-gradient(160deg, var(--navy-dark) 0%, var(--navy) 50%, var(--navy-light) 100%); padding-top: 72px; color: white; }
-.hero h1 { color: var(--white); font-size: clamp(2.5rem, 5.5vw, 3.8rem); margin-bottom: var(--space-xl); }
-.btn { display: inline-flex; align-items: center; padding: 12px 28px; font-weight: 600; border-radius: var(--radius-sm); transition: all 0.25s; }
-.btn--primary { background: var(--gold); color: var(--navy); }
-</style>
-  
-  <link rel="stylesheet" href="css/style.css" media="print" onload="this.media='all'">
-  <noscript><link rel="stylesheet" href="css/style.css"></noscript>
-  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+    <style>
+        /* Critical CSS for Ara Site */
+        :root {
+            --navy: #0B1D3A;
+            --navy-light: #132B52;
+            --navy-dark: #070F1E;
+            --gold: #C9A84C;
+            --gold-light: #D4BA6A;
+            --gold-dark: #A68B3C;
+            --white: #FFFFFF;
+            --off-white: #F7F8FA;
+            --gray-100: #EEF0F4;
+            --gray-300: #B0B7C5;
+            --text-primary: #1A1F2E;
+            --text-secondary: #5A6374;
+            --font-heading: 'Playfair Display', Georgia, serif;
+            --font-body: 'Inter', sans-serif;
+            --space-md: 1rem;
+            --space-lg: 1.5rem;
+            --space-xl: 2rem;
+            --space-2xl: 3rem;
+            --space-3xl: 4rem;
+            --space-4xl: 6rem;
+            --space-5xl: 8rem;
+            --transition-base: 250ms ease;
+            --radius-sm: 4px;
+            --max-width: 1200px;
+        }
+
+        *,
+        *::before,
+        *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            font-size: 16px;
+        }
+
+        body {
+            font-family: var(--font-body);
+            color: var(--text-primary);
+            background-color: var(--white);
+            line-height: 1.7;
+            overflow-x: hidden;
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-family: var(--font-heading);
+            font-weight: 700;
+            color: var(--navy);
+        }
+
+        .container {
+            width: 100%;
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 var(--space-xl);
+        }
+
+        .nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            background: rgba(11, 29, 58, 0.95);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(201, 168, 76, 0.15);
+        }
+
+        .nav__inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 72px;
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 var(--space-xl);
+        }
+
+        .nav__logo-img {
+            height: 36px;
+            width: auto;
+            display: block;
+        }
+
+        .hero {
+            position: relative;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            background: linear-gradient(160deg, var(--navy-dark) 0%, var(--navy) 50%, var(--navy-light) 100%);
+            padding-top: 72px;
+            color: white;
+        }
+
+        .hero h1 {
+            color: var(--white);
+            font-size: clamp(2.5rem, 5.5vw, 3.8rem);
+            margin-bottom: var(--space-xl);
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            padding: 12px 28px;
+            font-weight: 600;
+            border-radius: var(--radius-sm);
+            transition: all 0.25s;
+        }
+
+        .btn--primary {
+            background: var(--gold);
+            color: var(--navy);
+        }
+    </style>
+
+    <link rel="stylesheet" href="css/style.css" media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet" href="css/style.css">
+    </noscript>
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
 </head>
 
 <body>
@@ -52,7 +162,7 @@ h1,h2,h3 { font-family: var(--font-heading); font-weight: 700; color: var(--navy
     <nav class="nav" id="main-nav">
         <div class="nav__inner">
             <a href="index.html" class="nav__logo">
-                <img src="images/logo.svg" alt="Audit Readiness Advisors" class="nav__logo-img" width="120" height="36" >
+                <img src="images/logo.svg" alt="Audit Readiness Advisors" class="nav__logo-img" width="120" height="36">
             </a>
             <div class="nav__links" id="nav-links">
                 <a href="index.html" class="nav__link">Home</a>
@@ -63,196 +173,210 @@ h1,h2,h3 { font-family: var(--font-heading); font-weight: 700; color: var(--navy
             </div>
             <div class="nav__actions">
                 <button class="nav__lang" onclick="switchLanguage('es')" aria-label="Switch to Spanish">ES</button>
-                <a href="contact.html" class="nav__cta">Book a Consultation</a>
+                <a href="assessment.html" class="nav__cta">Free Assessment</a>
             </div>
             <button class="nav__toggle" id="nav-toggle"
                 aria-label="Toggle navigation"><span></span><span></span><span></span></button>
         </div>
     </nav>
 
-  <main id="main-content">
+    <main id="main-content">
 
-<section class="page-hero">
-        <div class="container">
-            <span class="section-label">About Us</span>
-            <h1>Big Four Experience. Advisory Firm Agility.</h1>
-            <p>We founded Audit Readiness Advisors because we saw too many companies enter the audit unprepared — and we
-                knew we could change that.</p>
-        </div>
-    </section>
+        <section class="page-hero">
+            <div class="container">
+                <span class="section-label">About Us</span>
+                <h1>Big Four Experience. Advisory Firm Agility.</h1>
+                <p>We founded Audit Readiness Advisors because we saw too many companies enter the audit unprepared —
+                    and we
+                    knew we could change that.</p>
+            </div>
+        </section>
 
-    <!-- Our Story -->
-    <section class="section">
-        <div class="container">
-            <div class="service-detail">
-                <div>
+        <!-- Our Story -->
+        <section class="section">
+            <div class="container">
+                <div class="service-detail">
+                    <div>
+                        <div class="reveal">
+                            <h2>Our Story</h2>
+                            <div class="gold-line"></div>
+                            <p class="lead">
+                                Audit Readiness Advisors was built by audit professionals who spent years on the other
+                                side
+                                of the table — at Big Four firms — auditing companies across industries, borders, and
+                                accounting frameworks.
+                            </p>
+                            <p>
+                                We saw the same patterns repeat: companies entering the audit with incomplete
+                                documentation,
+                                misapplied accounting standards, and control environments that couldn't withstand the
+                                scrutiny of a formal audit. The result was always the same — unexpected adjustments,
+                                delayed
+                                timelines, strained relationships, and eroded confidence.
+                            </p>
+                            <p>
+                                We created this firm to solve that problem. Our mission is simple: help companies
+                                prepare
+                                for their financial audit with the same rigor and methodology that their auditors will
+                                apply
+                                — so that when the auditor arrives, the work is already done.
+                            </p>
+                        </div>
+
+                        <div class="reveal" style="margin-top: var(--space-3xl);">
+                            <h2>What Sets Us Apart</h2>
+                            <div class="gold-line"></div>
+                            <p>
+                                We're not generalist consultants. We're audit specialists — people who have spent
+                                careers
+                                inside audit rooms, evaluating evidence, testing controls, and assessing financial
+                                statements. This means we know exactly what your auditor will look for, what questions
+                                they'll ask, and what gaps will cause delays.
+                            </p>
+                        </div>
+                    </div>
+
                     <div class="reveal">
-                        <h2>Our Story</h2>
-                        <div class="gold-line"></div>
-                        <p class="lead">
-                            Audit Readiness Advisors was built by audit professionals who spent years on the other side
-                            of the table — at Big Four firms — auditing companies across industries, borders, and
-                            accounting frameworks.
-                        </p>
-                        <p>
-                            We saw the same patterns repeat: companies entering the audit with incomplete documentation,
-                            misapplied accounting standards, and control environments that couldn't withstand the
-                            scrutiny of a formal audit. The result was always the same — unexpected adjustments, delayed
-                            timelines, strained relationships, and eroded confidence.
-                        </p>
-                        <p>
-                            We created this firm to solve that problem. Our mission is simple: help companies prepare
-                            for their financial audit with the same rigor and methodology that their auditors will apply
-                            — so that when the auditor arrives, the work is already done.
-                        </p>
-                    </div>
-
-                    <div class="reveal" style="margin-top: var(--space-3xl);">
-                        <h2>What Sets Us Apart</h2>
-                        <div class="gold-line"></div>
-                        <p>
-                            We're not generalist consultants. We're audit specialists — people who have spent careers
-                            inside audit rooms, evaluating evidence, testing controls, and assessing financial
-                            statements. This means we know exactly what your auditor will look for, what questions
-                            they'll ask, and what gaps will cause delays.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="reveal">
-                    <div class="card card--navy" style="margin-bottom: var(--space-xl);">
-                        <h3 class="card__title">Big Four Pedigree</h3>
-                        <p class="card__text">Our team's experience spans years at the world's leading audit firms. We
-                            apply the same methodology, rigor, and quality standards — without the bureaucracy or
-                            overhead.</p>
-                    </div>
-                    <div class="card card--navy" style="margin-bottom: var(--space-xl);">
-                        <h3 class="card__title">Cross-Border Fluency</h3>
-                        <p class="card__text">We operate natively across the US, Colombia, and Argentina. Our team is
-                            bilingual and experienced in multi-jurisdictional engagements spanning US GAAP, IFRS, and
-                            NIIF.</p>
-                    </div>
-                    <div class="card card--navy">
-                        <h3 class="card__title">Partner-Level Attention</h3>
-                        <p class="card__text">No junior-heavy teams. No handoff to associates. You work directly with
-                            senior professionals who have led audits of companies like yours.</p>
+                        <div class="card card--navy" style="margin-bottom: var(--space-xl);">
+                            <h3 class="card__title">Big Four Pedigree</h3>
+                            <p class="card__text">Our team's experience spans years at the world's leading audit firms.
+                                We
+                                apply the same methodology, rigor, and quality standards — without the bureaucracy or
+                                overhead.</p>
+                        </div>
+                        <div class="card card--navy" style="margin-bottom: var(--space-xl);">
+                            <h3 class="card__title">Cross-Border Fluency</h3>
+                            <p class="card__text">We operate natively across the US, Colombia, and Argentina. Our team
+                                is
+                                bilingual and experienced in multi-jurisdictional engagements spanning US GAAP, IFRS,
+                                and
+                                NIIF.</p>
+                        </div>
+                        <div class="card card--navy">
+                            <h3 class="card__title">Partner-Level Attention</h3>
+                            <p class="card__text">No junior-heavy teams. No handoff to associates. You work directly
+                                with
+                                senior professionals who have led audits of companies like yours.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Values -->
-    <section class="section section--gray">
-        <div class="container">
-            <div class="text-center reveal">
-                <span class="section-label">Our Values</span>
-                <h2 class="section-title">The Principles That Guide Our Work</h2>
-            </div>
+        <!-- Values -->
+        <section class="section section--gray">
+            <div class="container">
+                <div class="text-center reveal">
+                    <span class="section-label">Our Values</span>
+                    <h2 class="section-title">The Principles That Guide Our Work</h2>
+                </div>
 
-            <div class="about-values" style="margin-top: var(--space-3xl);">
-                <div class="about-value reveal reveal--delay-1">
-                    <div class="about-value__icon">🎯</div>
-                    <h3>Precision</h3>
-                    <p>Every finding is documented with the same rigor your auditor would apply. We don't deal in
-                        generalities — we deliver specific, actionable guidance.</p>
-                </div>
-                <div class="about-value reveal reveal--delay-2">
-                    <div class="about-value__icon">🤝</div>
-                    <h3>Partnership</h3>
-                    <p>We don't just identify problems and walk away. We work alongside your team to solve them,
-                        building capacity and confidence for the long term.</p>
-                </div>
-                <div class="about-value reveal reveal--delay-3">
-                    <div class="about-value__icon">🌎</div>
-                    <h3>Global Perspective</h3>
-                    <p>Cross-border financial reporting is complex. We bring the multi-framework, multi-jurisdictional
-                        expertise to navigate it seamlessly.</p>
+                <div class="about-values" style="margin-top: var(--space-3xl);">
+                    <div class="about-value reveal reveal--delay-1">
+                        <div class="about-value__icon">🎯</div>
+                        <h3>Precision</h3>
+                        <p>Every finding is documented with the same rigor your auditor would apply. We don't deal in
+                            generalities — we deliver specific, actionable guidance.</p>
+                    </div>
+                    <div class="about-value reveal reveal--delay-2">
+                        <div class="about-value__icon">🤝</div>
+                        <h3>Partnership</h3>
+                        <p>We don't just identify problems and walk away. We work alongside your team to solve them,
+                            building capacity and confidence for the long term.</p>
+                    </div>
+                    <div class="about-value reveal reveal--delay-3">
+                        <div class="about-value__icon">🌎</div>
+                        <h3>Global Perspective</h3>
+                        <p>Cross-border financial reporting is complex. We bring the multi-framework,
+                            multi-jurisdictional
+                            expertise to navigate it seamlessly.</p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Cross-Border -->
-    <section class="section section--navy">
-        <div class="container">
-            <div class="text-center reveal">
-                <span class="section-label">Cross-Border Reach</span>
-                <h2 class="section-title">Serving Companies Across Borders</h2>
-                <p class="section-subtitle mx-auto" style="margin-bottom: var(--space-3xl); color: var(--gray-300);">
-                    Our team operates across multiple jurisdictions with native-level expertise in each market.
-                </p>
-            </div>
+        <!-- Cross-Border -->
+        <section class="section section--navy">
+            <div class="container">
+                <div class="text-center reveal">
+                    <span class="section-label">Cross-Border Reach</span>
+                    <h2 class="section-title">Serving Companies Across Borders</h2>
+                    <p class="section-subtitle mx-auto"
+                        style="margin-bottom: var(--space-3xl); color: var(--gray-300);">
+                        Our team operates across multiple jurisdictions with native-level expertise in each market.
+                    </p>
+                </div>
 
-            <div class="grid grid--4 reveal">
-                <div class="text-center">
-                    <div class="trust-bar__number">🇺🇸</div>
-                    <h4 style="color: var(--white); margin-top: var(--space-sm);">United States</h4>
-                    <p style="font-size: 0.9rem;">US GAAP, SEC reporting, SOX compliance</p>
-                </div>
-                <div class="text-center">
-                    <div class="trust-bar__number">🇨🇴</div>
-                    <h4 style="color: var(--white); margin-top: var(--space-sm);">Colombia</h4>
-                    <p style="font-size: 0.9rem;">NIIF, Supersociedades requirements, local compliance</p>
-                </div>
-                <div class="text-center">
-                    <div class="trust-bar__number">🇦🇷</div>
-                    <h4 style="color: var(--white); margin-top: var(--space-sm);">Argentina</h4>
-                    <p style="font-size: 0.9rem;">NIIF, inflation accounting, CNV reporting</p>
-                </div>
-                <div class="text-center">
-                    <div class="trust-bar__number">🌎</div>
-                    <h4 style="color: var(--white); margin-top: var(--space-sm);">Latin America</h4>
-                    <p style="font-size: 0.9rem;">Multi-country coordination, IFRS harmonization</p>
+                <div class="grid grid--4 reveal">
+                    <div class="text-center">
+                        <div class="trust-bar__number">🇺🇸</div>
+                        <h4 style="color: var(--white); margin-top: var(--space-sm);">United States</h4>
+                        <p style="font-size: 0.9rem;">US GAAP, SEC reporting, SOX compliance</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="trust-bar__number">🇨🇴</div>
+                        <h4 style="color: var(--white); margin-top: var(--space-sm);">Colombia</h4>
+                        <p style="font-size: 0.9rem;">NIIF, Supersociedades requirements, local compliance</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="trust-bar__number">🇦🇷</div>
+                        <h4 style="color: var(--white); margin-top: var(--space-sm);">Argentina</h4>
+                        <p style="font-size: 0.9rem;">NIIF, inflation accounting, CNV reporting</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="trust-bar__number">🌎</div>
+                        <h4 style="color: var(--white); margin-top: var(--space-sm);">Latin America</h4>
+                        <p style="font-size: 0.9rem;">Multi-country coordination, IFRS harmonization</p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Industries -->
-    <section class="section">
-        <div class="container">
-            <div class="text-center reveal">
-                <span class="section-label">Industry Expertise</span>
-                <h2 class="section-title">Industries We Serve</h2>
-                <p class="section-subtitle mx-auto" style="margin-bottom: var(--space-2xl);">
-                    Our team has deep audit and advisory experience across a diverse range of industries.
-                </p>
+        <!-- Industries -->
+        <section class="section">
+            <div class="container">
+                <div class="text-center reveal">
+                    <span class="section-label">Industry Expertise</span>
+                    <h2 class="section-title">Industries We Serve</h2>
+                    <p class="section-subtitle mx-auto" style="margin-bottom: var(--space-2xl);">
+                        Our team has deep audit and advisory experience across a diverse range of industries.
+                    </p>
+                </div>
+                <div class="industries reveal" style="max-width: 700px; margin: 0 auto;">
+                    <span class="industry-tag">Real Estate &amp; Development</span>
+                    <span class="industry-tag">Technology &amp; SaaS</span>
+                    <span class="industry-tag">Manufacturing</span>
+                    <span class="industry-tag">Professional Services</span>
+                    <span class="industry-tag">Holding Structures</span>
+                    <span class="industry-tag">Private Equity Portfolios</span>
+                    <span class="industry-tag">Venture-Backed Startups</span>
+                    <span class="industry-tag">Multinational Groups</span>
+                    <span class="industry-tag">Financial Services</span>
+                    <span class="industry-tag">Hospitality</span>
+                </div>
             </div>
-            <div class="industries reveal" style="max-width: 700px; margin: 0 auto;">
-                <span class="industry-tag">Real Estate &amp; Development</span>
-                <span class="industry-tag">Technology &amp; SaaS</span>
-                <span class="industry-tag">Manufacturing</span>
-                <span class="industry-tag">Professional Services</span>
-                <span class="industry-tag">Holding Structures</span>
-                <span class="industry-tag">Private Equity Portfolios</span>
-                <span class="industry-tag">Venture-Backed Startups</span>
-                <span class="industry-tag">Multinational Groups</span>
-                <span class="industry-tag">Financial Services</span>
-                <span class="industry-tag">Hospitality</span>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- CTA -->
-    <section class="section">
-        <div class="container">
-            <div class="cta-banner reveal">
-                <h2>Work with Advisors Who've Been in the Audit Room</h2>
-                <p>Our team has the experience to prepare you for exactly what your auditor will look for.</p>
-                <a href="contact.html" class="btn btn--primary">Start a Conversation <span
-                        class="btn__arrow">→</span></a>
+        <!-- CTA -->
+        <section class="section">
+            <div class="container">
+                <div class="cta-banner reveal">
+                    <h2>Work with Advisors Who've Been in the Audit Room</h2>
+                    <p>Our team has the experience to prepare you for exactly what your auditor will look for.</p>
+                    <a href="contact.html" class="btn btn--primary">Start a Conversation <span
+                            class="btn__arrow">→</span></a>
+                </div>
             </div>
-        </div>
-    </section>
-  </main>
+        </section>
+    </main>
 
     <footer class="footer">
         <div class="container">
             <div class="footer__grid">
                 <div class="footer__brand">
                     <a href="index.html" class="nav__logo" style="margin-bottom: var(--space-md);">
-                        <img src="images/logo.svg" alt="Audit Readiness Advisors" class="nav__logo-img" width="120" height="36" >
+                        <img src="images/logo.svg" alt="Audit Readiness Advisors" class="nav__logo-img" width="120"
+                            height="36">
                     </a>
                     <p>Big Four grade audit readiness, mock audit, and technical accounting advisory.</p>
                 </div>
@@ -271,6 +395,7 @@ h1,h2,h3 { font-family: var(--font-heading); font-weight: 700; color: var(--navy
                         <li><a href="about.html">About Us</a></li>
                         <li><a href="faq.html">FAQ</a></li>
                         <li><a href="contact.html">Contact</a></li>
+                        <li><a href="assessment.html">Free Assessment</a></li>
                     </ul>
                 </div>
                 <div>
