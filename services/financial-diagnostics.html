@@ -18,6 +18,9 @@
     <meta property="og:description"
         content="Deep-dive analysis to identify financial statement issues before your auditor does.">
     <meta property="og:type" content="website">
+  <meta property="og:image" content="https://auditreadinessadvisors.com/images/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
 
     <script type="application/ld+json">
   {
@@ -30,12 +33,12 @@
   }
   </script>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="../css/style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap"></noscript>
+  <link rel="stylesheet" href="../css/style.css">
   <link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
 </head>
 
@@ -44,7 +47,7 @@
     <nav class="nav" id="main-nav">
         <div class="nav__inner">
             <a href="../index.html" class="nav__logo">
-                <img src="../images/logo.svg" alt="Audit Readiness Advisors" class="nav__logo-img">
+                <img src="../images/logo.svg" alt="Audit Readiness Advisors" class="nav__logo-img" width="120" height="36" >
             </a>
             <div class="nav__links" id="nav-links">
                 <a href="../index.html" class="nav__link">Home</a>
@@ -62,7 +65,8 @@
         </div>
     </nav>
 
-    <section class="page-hero">
+  <main id="main-content">
+<section class="page-hero">
         <div class="container">
             <span class="section-label">Diagnostics &amp; Analysis</span>
             <h1>Financial Statement Diagnostics</h1>
@@ -167,18 +171,19 @@
             </div>
         </div>
     </section>
+  </main>
 
     <footer class="footer">
         <div class="container">
             <div class="footer__grid">
                 <div class="footer__brand">
                     <a href="../index.html" class="nav__logo" style="margin-bottom: var(--space-md);">
-                        <img src="../images/logo.svg" alt="Audit Readiness Advisors" class="nav__logo-img">
+                        <img src="../images/logo.svg" alt="Audit Readiness Advisors" class="nav__logo-img" width="120" height="36" >
                     </a>
                     <p>Big Four grade audit readiness, mock audit, and technical accounting advisory.</p>
                 </div>
                 <div>
-                    <h4 class="footer__heading">Services</h4>
+                    <h3 class="footer__heading">Services</h3>
                     <ul class="footer__links">
                         <li><a href="audit-readiness.html">Audit Readiness Reviews</a></li>
                         <li><a href="financial-diagnostics.html">Financial Diagnostics</a></li>
@@ -187,7 +192,7 @@
                     </ul>
                 </div>
                 <div>
-                    <h4 class="footer__heading">Company</h4>
+                    <h3 class="footer__heading">Company</h3>
                     <ul class="footer__links">
                         <li><a href="../about.html">About Us</a></li>
                         <li><a href="../faq.html">FAQ</a></li>
@@ -195,7 +200,7 @@
                     </ul>
                 </div>
                 <div>
-                    <h4 class="footer__heading">Languages</h4>
+                    <h3 class="footer__heading">Languages</h3>
                     <ul class="footer__links">
                         <li><a href="../index.html">English</a></li>
                         <li><a href="../es/index.html">Español</a></li>
@@ -209,7 +214,7 @@
         </div>
     </footer>
 
-    <script src="../js/main.js"></script>
+    <script src="../js/main.js" defer></script>
 </body>
 
 </html>

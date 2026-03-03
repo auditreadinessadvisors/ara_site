@@ -1012,7 +1012,7 @@ p {
 /* --- Footer --- */
 .footer {
   background: var(--navy-dark);
-  color: var(--gray-400);
+  color: var(--gray-300);
   padding: var(--space-4xl) 0 var(--space-xl);
 }
 
@@ -1026,7 +1026,7 @@ p {
 .footer__brand p {
   font-size: 0.9rem;
   line-height: 1.7;
-  color: var(--gray-400);
+  color: var(--gray-300);
   margin-top: var(--space-md);
 }
 
@@ -1046,7 +1046,7 @@ p {
 
 .footer__links a {
   font-size: 0.9rem;
-  color: var(--gray-400);
+  color: var(--gray-300);
   transition: color var(--transition-fast);
 }
 
@@ -1064,7 +1064,7 @@ p {
 }
 
 .footer__legal a {
-  color: var(--gray-400);
+  color: var(--gray-300);
   margin-left: var(--space-lg);
 }
 
